@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "PC_Card")(type "KiCad")(uri "${KIPRJMOD}/PC_Card.pretty")(options "")(descr ""))
+  (lib (name "com-1300")(type "KiCad")(uri "${KIPRJMOD}/com-1300.pretty")(options "")(descr ""))
+)
