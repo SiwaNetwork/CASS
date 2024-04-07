@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC3S200-4TQG144C
+D Spartan-3 FPGA 200k gates TQFP144 XC3S200-4TQG144C, FPGA Spartan-3 4320 Cells, 200000 Gates, 30720bit, 4320 Blocks, 1.14  1.26 V 144-Pin TQFP
+K
+F https://www.xilinx.com/support/documentation/data_sheets/ds099.pdf
+$ENDCMP
+#
+#End Doc Library

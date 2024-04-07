@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XC3S400_4TQ144C'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AMD", "XC3S400-4TQ144C" (!) = "", "QFP50P2200X2200X160-144N", "Quad Flat Packages", "217-XC3S400-4TQ144C", "https://www.mouser.co.uk/ProductDetail/Xilinx/XC3S400-4TQ144C?qs=rrS6PyfT74eK4%252BqpZU3R4Q%3D%3D", "", "", "FPGA - Field Programmable Gate Array 400000 SYSTEM GATE 1.2 VOLT FPGA", "https://www.xilinx.com/support/documentation/data_sheets/ds099.pdf", "1.6 mm"
+END_PART
+
+END.

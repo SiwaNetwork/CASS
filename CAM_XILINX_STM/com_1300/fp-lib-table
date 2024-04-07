@@ -1,4 +1,6 @@
 (fp_lib_table
+  (version 7)
   (lib (name "PC_Card")(type "KiCad")(uri "${KIPRJMOD}/PC_Card.pretty")(options "")(descr ""))
   (lib (name "com-1300")(type "KiCad")(uri "${KIPRJMOD}/com-1300.pretty")(options "")(descr ""))
+  (lib (name "com_1300")(type "KiCad")(uri "C:/Users/SHIWA/Documents/GitHub/CASS/CAM_XILINX_STM/com_1300.pretty")(options "")(descr ""))
 )
