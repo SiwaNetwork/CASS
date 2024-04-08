@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74CBTD3384CDBR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74CBTD3384CDBR" (!) = "", "SOP65P780X200-24N", "Small Outline Packages", "595-SN74CBTD3384CDBR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74CBTD3384CDBR?qs=mE33ZKBHyE5HkNXzDF2trA%3D%3D", "", "", "10-Bit FET Bus Switches With Level Shifting with -2 V Undershoot", "http://www.ti.com/lit/gpn/sn74cbtd3384c", "2 mm"
+END_PART
+
+END.

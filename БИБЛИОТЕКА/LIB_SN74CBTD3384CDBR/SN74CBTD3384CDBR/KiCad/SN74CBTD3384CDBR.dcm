@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74CBTD3384CDBR
+D 10-Bit FET Bus Switches With Level Shifting with -2 V Undershoot
+K
+F http://www.ti.com/lit/gpn/sn74cbtd3384c
+$ENDCMP
+#
+#End Doc Library

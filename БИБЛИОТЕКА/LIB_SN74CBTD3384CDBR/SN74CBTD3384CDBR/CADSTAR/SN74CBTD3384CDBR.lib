@@ -1,0 +1,18 @@
+.SN74CBTD3384CDBR :1 ;10-Bit FET Bus Switches With Level Shifting with -2 V Undershoot
+SOP65P780X200-24N
+*STM IC
+*NGS
+*PLB 1="1'OE'" 2="1B1" 3="1A1" 4="1A2" 5="1B2" 6="1B3" 7="1A3" 8="1A4" 9="1B4" 10="1B5" 11="1A5" 12="GND" 13="2'OE'" 14="2A1" 15="2B1" 16="2B2" 17="2A2" 18="2A3" 19="2B3" 20="2B4" 21="2A4" 22="2A5" 23="2B5" 24="VCC"
+*MXP 24
+*DFN SN74CBTD3384CDBR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74CBTD3384CDBR)
+~!Mouser Part Number (595-SN74CBTD3384CDBR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74CBTD3384CDBR?qs=mE33ZKBHyE5HkNXzDF2trA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.ti.com/lit/gpn/sn74cbtd3384c)
+~!Height (2mm)
+~!3D_Model (SN74CBTD3384CDBR)
+SN74CBTD3384CDBR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

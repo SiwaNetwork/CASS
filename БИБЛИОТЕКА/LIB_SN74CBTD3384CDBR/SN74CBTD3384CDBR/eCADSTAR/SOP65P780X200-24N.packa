@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SN74CBTD3384CDBR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-16-08:16:48)
+    (mountForm default
+        (footprintRef "SOP65P780X200-24N")
+        (spec "System")
+    )
+)

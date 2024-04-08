@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EP4CE22E22C8N'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Intel", "EP4CE22E22C8N" (!) = "", "QFP50P2200X2200X165-145N", "Quad Flat Packages", "989-EP4CE22E22C8N", "https://www.mouser.co.uk/ProductDetail/Intel-Altera/EP4CE22E22C8N?qs=jblrfmjbeiH0U8JN%2F%2FDkcQ%3D%3D", "EP4CE22E22C8N", "https://www.arrow.com/en/products/ep4ce22e22c8n/intel?region=europe", "FPGA, Cyclone IV, 22320 cell, LQFP144 EP4CE22E22C8N, FPGA Cyclone IV E 22320 Cells, 594kbit, 1395 Blocks, 1.15  1.25 V 144-Pin EQFP", "https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/cyclone-iv/cyclone4-handbook.pdf", "1.65 mm"
+END_PART
+
+END.

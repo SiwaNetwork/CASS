@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74CBTD3384CDBR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2021-06-16 11:24:43
+Downloaded=2024-04-08 16:53:48
+3D=Y
