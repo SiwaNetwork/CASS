@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise
+C:/WORK/VHDL/com1300template_002/com1300P_R002/com1300_P82.ise -intstyle ise -e
+3 -l 3 -s 4 -xml com1300_P com1300_P.ncd -o com1300_P.twr com1300_P.pcf -ucf
+C:/WORK/VHDL/com1300template_002/com1300P_R002/src/com1300_P.ucf
+
+Design file:              com1300_p.ncd
+Physical constraint file: com1300_p.pcf
+Device,speed:             xc3s400,-4 (PRODUCTION 1.38 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: TS_CLK_IN1 = PERIOD TIMEGRP "CLK_IN1" 25 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_UC_ALE = PERIOD TIMEGRP "UC_ALE" 20 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_UC_WRN = PERIOD TIMEGRP "UC_WRN" 20 ns HIGH 50%;
+
+ 5 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   3.027ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_CLKFX_W_001 = PERIOD TIMEGRP "CLKFX_W_001" TS_CLK_IN1 HIGH 50%;
+
+ 16416 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  11.068ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK_IN1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_IN1        |   11.068|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UC_WRN
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+UC_WRN         |         |         |         |    3.027|
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 16421 paths, 0 nets, and 4045 connections
+
+Design statistics:
+   Minimum period:  11.068ns   (Maximum frequency:  90.351MHz)
+
+
+Analysis completed Tue May 01 11:26:41 2007
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 117 MB
+
+
+

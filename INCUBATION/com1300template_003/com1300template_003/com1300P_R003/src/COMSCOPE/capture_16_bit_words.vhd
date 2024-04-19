@@ -1,0 +1,255 @@
+-------------------------------------------------------------
+--	Filename:  CAPTURE_16_BIT_WORDS.VHD
+-- Author: Alain Zarembowitch / MSS
+--	Version: 2
+--	Date last modified: 10-02-03
+-- Inheritance: 	none
+--
+--
+-- 
+---------------------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity CAPTURE_16_BIT_WORDS is port ( 
+	--GLOBAL CLOCKS
+   CLK : in std_logic;				-- Master clock for this FPGA
+	ASYNC_RESET: in std_logic;		-- Asynchronous reset active high
+
+
+	-- Inputs
+	DECIMATE_VALUE: in std_logic_vector(4 downto 0);
+		-- Decimate value. Can be taken straight from the registers.
+		-- The decimation will 2^DECIMATE_VALUE.
+	TRIGGER_POSITION: in std_logic_vector(1 downto 0);
+		-- 00		0 %
+		-- 01		10 %
+		-- 10		50 %
+		-- 11		90 %
+	WORD_16_BIT_IN: in std_logic_vector(15 downto 0);
+		-- Input signal to be captured
+	WORD_CLK_IN: in std_logic;
+		-- WORD_4_BIT_IN will be read whenever WORD_CLK_IN = '1'.
+	NEXT_WORD_PLEASE: in std_logic;
+		-- Increments the READ_POINTER so that the next 8-bit 
+		-- word is ready to be read.
+	TRIGGER: in std_logic;
+		-- Is one when a trigger was forced or if the trigger 
+		-- conditions were met. One CLK cycle wide pulse.
+	TRIGGER_REARM: in std_logic;
+		-- One CLK cycle wide pulse used to rearm the trigger.
+	START_CAPTURING: in std_logic;
+		-- One CLK cycle wide pulse that makes sure data is
+		-- being captured when nothing is going on. Necessary
+		-- before a capture with a non-zero trigger offset.
+
+
+	-- Outputs
+	WORD_8_BIT_OUT: out std_logic_vector(7 downto 0);
+		-- The signal that was stored in the RAM.
+	WORD_CLK_OUT: out std_logic;
+		-- WORD_8_BIT_OUT is valid when WORD_CLK_OUT = '1'.
+	STATE: out std_logic_vector(1 downto 0)
+		-- 01		CAPTURING
+		-- 10		CAPTURING_WAITING_FOR_TRIGGER
+		-- 11		CAPTURING_TRIGGER_DETECTED
+		-- 00		CAPTURE_CEASED
+);
+end entity;
+
+architecture behavioral of CAPTURE_16_BIT_WORDS is
+--------------------------------------------------------
+--      COMPONENTS
+--------------------------------------------------------
+
+component RAMB4_S8_S16 port (
+	DIA: in std_logic_vector (7 downto 0);
+	DIB: in std_logic_vector (15 downto 0);
+	ENA: in std_logic;
+	ENB: in std_logic;
+	WEA: in std_logic;
+	WEB: in std_logic;
+	RSTA: in std_logic;
+	RSTB: in std_logic;
+	CLKA: in std_logic;
+	CLKB: in std_logic;
+	ADDRA: in std_logic_vector (8 downto 0);
+	ADDRB: in std_logic_vector (7 downto 0);
+	DOA: out std_logic_vector (7 downto 0);
+	DOB: out std_logic_vector (15 downto 0)); 
+end component;
+
+
+component DECIMATE port (
+	--GLOBAL CLOCKS
+   CLK : in std_logic;				-- Master clock for this FPGA
+	ASYNC_RESET: in std_logic;		-- Asynchronous reset active high
+
+	-- Inputs
+	DECIMATE_VALUE: in std_logic_vector(4 downto 0);
+	SAMPLE_CLK_IN: in std_logic;
+
+	-- Output
+	DECIMATED_SAMPLE_CLK_OUT: out std_logic
+);
+end component;
+
+--------------------------------------------------------
+--     SIGNALS
+--------------------------------------------------------
+
+--// Constants
+signal ZERO: std_logic;
+signal ONE: std_logic;
+signal ZERO8: std_logic_vector(7 downto 0);
+
+signal STATE_LOCAL: std_logic_vector(1 downto 0);
+signal WRITE_POINTER: std_logic_vector(7 downto 0);
+signal WRITE_POINTER_ADD_VALUE: std_logic_vector(7 downto 0);
+signal WRITE_POINTER_PLUS_ADD_VALUE: std_logic_vector(7 downto 0);
+signal WRITE_POINTER_PLUS_ONE: std_logic_vector(7 downto 0);
+signal WRITE_POINTER_END: std_logic_vector(7 downto 0);
+signal WRITE_ENABLE: std_logic;
+signal READ_POINTER: std_logic_vector(8 downto 0);
+signal DECIMATED_WORD_CLK: std_logic;
+signal LAST_WORD_CAPTURED_PULSE: std_logic;
+signal LAST_WORD_CAPTURED_PULSE_D: std_logic;
+signal WORD_CLK_OUT_LOCAL: std_logic;
+signal NEXT_WORD_PLEASE_D: std_logic;
+--------------------------------------------------------
+--      IMPLEMENTATION
+--------------------------------------------------------
+
+begin
+
+
+--// COMSCOPE SOURCE CODE -----------
+ZERO <= '0';
+ONE <= '1';
+ZERO8 <= (others => '0');
+
+
+STATE <= STATE_LOCAL;
+
+
+STATE_MACHINE_001: process(ASYNC_RESET, CLK, TRIGGER_POSITION)
+begin
+	if(ASYNC_RESET = '1') then
+		STATE_LOCAL <= "01";
+		WRITE_POINTER_END <= (others => '0');
+	elsif rising_edge(CLK) then
+		if (START_CAPTURING = '1') then
+			STATE_LOCAL <= "01";
+		elsif (TRIGGER_REARM = '1') then
+			STATE_LOCAL <= "10";
+		elsif (STATE_LOCAL = "10") and (TRIGGER = '1') then 
+			-- trigger received, waiting for data and data capture completion
+			-- trigger is only active if trace is re-armed
+			STATE_LOCAL <= "11";
+			-- remember the address at which we should stop capturing
+			WRITE_POINTER_END <= WRITE_POINTER_PLUS_ADD_VALUE;
+		elsif (STATE_LOCAL = "11") and (LAST_WORD_CAPTURED_PULSE = '1') then 
+			STATE_LOCAL <= "00";
+		end if;
+	end if;
+end process;
+
+
+WRITE_POINTER_PLUS_ADD_VALUE <= WRITE_POINTER + WRITE_POINTER_ADD_VALUE;
+
+-- compute end of buffer pointer location
+-- Depending on whether the trigger is selected to be 
+-- at 0%, 10%, 50% or 90% of the capture window
+WRITE_POINTER_ADD_VALUE <= 
+	"11100110" when TRIGGER_POSITION = "01" else		-- trigger at 10% (230)
+	"10000000" when TRIGGER_POSITION = "10" else 	-- trigger at 50% (128)
+	"00011010" when TRIGGER_POSITION = "11" else 	-- trigger at 90% (26)
+	"00000000";			
+
+WRITE_POINTER_PLUS_ONE <= WRITE_POINTER + 1;
+
+LAST_WORD_CAPTURED_PULSE <= DECIMATED_WORD_CLK when (STATE_LOCAL = "11" and
+									 WRITE_POINTER_PLUS_ONE = WRITE_POINTER_END) else '0';
+
+
+WRITE_ENABLE <= DECIMATED_WORD_CLK when (STATE_LOCAL /= "00") else '0'; 
+
+
+MANAGE_WP: process(ASYNC_RESET, CLK)
+begin
+	if(ASYNC_RESET = '1') then
+		WRITE_POINTER <= (others => '0');
+	elsif rising_edge(CLK) then
+		if (WRITE_ENABLE = '1') then
+			WRITE_POINTER <= WRITE_POINTER_PLUS_ONE;
+		end if;
+	end if;
+end process;
+
+
+DELAY: process(ASYNC_RESET, CLK)
+begin
+	if(ASYNC_RESET = '1') then
+		LAST_WORD_CAPTURED_PULSE_D <= '0';
+		NEXT_WORD_PLEASE_D <= '0';
+	elsif rising_edge(CLK) then
+		LAST_WORD_CAPTURED_PULSE_D <= LAST_WORD_CAPTURED_PULSE;
+		NEXT_WORD_PLEASE_D <= NEXT_WORD_PLEASE;
+	end if;
+end process;
+
+
+MANAGE_RP: process(ASYNC_RESET, CLK)
+begin
+	if(ASYNC_RESET = '1') then
+		READ_POINTER <= (others => '0');
+		WORD_CLK_OUT_LOCAL <= '0';
+	elsif rising_edge(CLK) then
+		WORD_CLK_OUT_LOCAL <= NEXT_WORD_PLEASE_D or LAST_WORD_CAPTURED_PULSE_D;
+		if (LAST_WORD_CAPTURED_PULSE = '1') then
+			READ_POINTER(8 downto 1) <= WRITE_POINTER_END;
+			READ_POINTER(0) <= '0';
+		elsif (NEXT_WORD_PLEASE = '1') then
+			READ_POINTER <= READ_POINTER + 1;
+		end if;
+	end if;
+end process;
+
+WORD_CLK_OUT <= WORD_CLK_OUT_LOCAL;
+
+--------------------------------------------------------------------------
+-- COMPONENT INSTANTIATIONS
+--------------------------------------------------------------------------
+
+-- Instantiate the decimation
+DECIMATE_001: DECIMATE port map(
+	CLK => CLK,
+	ASYNC_RESET => ASYNC_RESET,
+	DECIMATE_VALUE => DECIMATE_VALUE,
+	SAMPLE_CLK_IN => WORD_CLK_IN,
+	DECIMATED_SAMPLE_CLK_OUT => DECIMATED_WORD_CLK
+);
+
+
+-- Instantiate the block RAM
+RAMB_001:  RAMB4_S8_S16 port map(
+	DIA => ZERO8,
+	DIB => WORD_16_BIT_IN,
+	ENA => ONE,
+	ENB => ONE,
+	WEA => ZERO,
+	WEB => WRITE_ENABLE,
+	RSTA => ASYNC_RESET,
+	RSTB => ASYNC_RESET,
+	CLKA => CLK,
+	CLKB => CLK,
+	ADDRA => READ_POINTER,
+	ADDRB => WRITE_POINTER,
+	DOA => WORD_8_BIT_OUT
+);
+
+
+end behavioral;
