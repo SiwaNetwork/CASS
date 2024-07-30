@@ -290,6 +290,14 @@ Variation3=Designator=R6|UniqueId=\GAOAYRXO\ZPMKXKEX|Kind=1|AlternatePart=
 Variation4=Designator=R7|UniqueId=\GAOAYRXO\XYAKRVPY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CAM_DVB-CI\Pick Place for CAM_DVB-CI.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for CAM_DVB-CI\Pick Place for CAM_DVB-CI.txt
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Revision
 Value=rev.1.1
@@ -409,42 +417,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=Mixed Sim Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -523,22 +501,26 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=True|IncludeVariations=True|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=True|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Package / Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#18=Name:Function,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#19=Name:PSRR,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78|Column#20=Name:Output,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#21=Name:Height - Seated (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#22=Name:Number of Lines,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#23=Name:Number of Terminations,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#24=Name:Voltage - Rated,Fixed:False,Metric:False,Visible:False,Sort:None,Position:96|Column#25=Name:Inductance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#26=Name:Voltage - Input (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:94|Column#27=Name:Part Number1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#28=Name:Q @ Freq,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79|Column#29=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#30=Name:Minimum Order,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#31=Name:Resistance (Ohms),Fixed:False,Metric:False,Visible:False,Sort:None,Position:81|Column#32=Name:Part Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#33=Name:Power (Watts),Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#34=Name:Frequency - Self Resonant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#35=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#36=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#37=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#38=Name:Current - Output,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#39=Name:Voltage - Output (Min/Fixed),Fixed:False,Metric:False,Visible:False,Sort:None,Position:95|Column#40=Name:Applications,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#41=Name:Current Rating (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#42=Name:Thickness (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:90|Column#43=Name:System,Fixed:False,Metric:False,Visible:False,Sort:None,Position:88|Column#44=Name:Current Rating (Amps),Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#45=Name:DC Resistance (DCR),Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#46=Name:Height (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#47=Name:Base Resonator,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#48=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#49=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80|Column#50=Name:Current - Saturation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#51=Name:Size / Dimension,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84|Column#52=Name:Number of Resistors,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#53=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:85|Column#54=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:91|Column#55=Name:Circuit Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#56=Name:Power Per Element,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#57=Name:Lifecycle Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#58=Name:Mouser Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#59=Name:Frequency Stability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#60=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:87|Column#61=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#62=Name:Material - Core,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#63=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#64=Name:Supplier Device Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:86|Column#65=Name:Arrow Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#66=Name:Current - Supply (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#67=Name:Number of Regulators,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#68=Name:lastupdated,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#69=Name:Shielding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83|Column#70=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:92|Column#71=Name:Output Configuration,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#72=Name:Device Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#73=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#74=Name:Composition,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#75=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#76=Name:Voltage - Supply,Fixed:False,Metric:False,Visible:False,Sort:None,Position:97|Column#77=Name:Arrow Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#78=Name:Protection Features,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77|Column#79=Name:Filter Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#80=Name:Temperature Coefficient,Fixed:False,Metric:False,Visible:False,Sort:None,Position:89|Column#81=Name:Output Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#82=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#83=Name:Datasheet Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#84=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#85=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:93|Column#86=Name:Voltage Dropout (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:98|Column#87=Name:Current - Quiescent (Iq),Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#88=Name:Series,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82|Column#89=Name:Mouser Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#90=Name:Impedance @ Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#91=Name:partid,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#92=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#93=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#94=Name:Features,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#95=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#96=Name:Inductance Frequency - Test,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#97=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#98=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#99=Name:DC Resistance (DCR) (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|DocumentPath=C:\Users\user\Documents\GitHub\CASS\CAM-ALTERA_STM\V2\SM_Project\VM_CAM_DVB-CI\CAM_DVB-CI.PcbDoc
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -660,11 +642,6 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=GOSTBOM
-OutputName9=GOST BOM
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -878,11 +855,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=AnsysEDB
-OutputName12=Ansys EDB
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
