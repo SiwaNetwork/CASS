@@ -1,0 +1,7 @@
+Record=TopLevelDocument|FileName=MAIN.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_FLASH|SchDesignator=U_FLASH|FileName=FLASH.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=FLASH.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_FPGA|SchDesignator=U_FPGA|FileName=FPGA.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=FPGA.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_FPGA_POWER|SchDesignator=U_FPGA_POWER|FileName=FPGA_POWER.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=FPGA_POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_POWER|SchDesignator=U_POWER|FileName=POWER.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_STM32|SchDesignator=U_STM32|FileName=STM32.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=STM32.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=MAIN.SchDoc|FileName=INFO.SchDoc|SheetNumber=7
