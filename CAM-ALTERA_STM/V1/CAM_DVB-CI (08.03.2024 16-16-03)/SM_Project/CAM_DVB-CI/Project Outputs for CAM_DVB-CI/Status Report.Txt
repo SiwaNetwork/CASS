@@ -1,48 +1,11 @@
-Output: ODB++ Files
-Type  : ODB
+Output: Generates pick and place files
+Type  : Pick Place
 From  : Variant [[No Variations]] of Project [CAM_DVB-CI.PrjPcb]
-   Generated File[matrix]
-   Generated File[profile]
-   Generated File[stephdr]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[tools]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[components]
-   Generated File[data]
-   Generated File[netlist]
-   Generated File[CAM_DVB-CI_r1.REP]
+   Generated File[Pick Place for CAM_DVB-CI_r1.txt]
+   Generated File[Pick Place for CAM_DVB-CI_r1.csv]
 
 
-Files Generated   : 39
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 12:06:56 On 13.03.2024
+Finished Output Generation At 15:18:58 On 03.02.2025
