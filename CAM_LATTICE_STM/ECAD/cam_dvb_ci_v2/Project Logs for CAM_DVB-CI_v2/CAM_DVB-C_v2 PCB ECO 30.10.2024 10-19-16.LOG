@@ -1,0 +1,13 @@
+Added Component: Designator=TP12(PAD_TEST)
+Add component (AddParameter): Name = "Case"; Value = "{Case}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CatalogueCode"; Value = "{CatalogueCode}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "{Manufacturer}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerVoltage"; Value = "{PowerVoltage}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reseller1"; Value = "{Reseller1}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reseller2"; Value = "{Reseller2}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reseller3"; Value = "{Reseller3}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tempcoeff"; Value = "{Tempcoeff}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "{Tolerance}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ".NetName"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LED1 Pin=TP12-1
+Added Member To Class: ClassName=MAIN Member=Component TP12 PAD_TEST
