@@ -254,12 +254,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document13]
+DocumentPath=MAIN.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=DE9C967C-115C-41D4-9FC3-906FDF985A33
 Description=release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=7
+VariationCount=8
 Variation1=Designator=R20|UniqueId=\PWMNTVWD\OSJUITIP|Kind=1|AlternatePart=
 Variation2=Designator=R19|UniqueId=\PWMNTVWD\FNLLYARV|Kind=0|AlternatePart=
 Variation3=Designator=R6|UniqueId=\GAOAYRXO\ZPMKXKEX|Kind=1|AlternatePart=
@@ -267,11 +284,16 @@ Variation4=Designator=R7|UniqueId=\GAOAYRXO\XYAKRVPY|Kind=1|AlternatePart=
 Variation5=Designator=R2|UniqueId=\GAOAYRXO\NAYAJWJI|Kind=1|AlternatePart=
 Variation6=Designator=J3|UniqueId=\PWMNTVWD\FETYRBIQ|Kind=1|AlternatePart=
 Variation7=Designator=J2|UniqueId=\GAOAYRXO\JBOCNFYW|Kind=1|AlternatePart=
+Variation8=Designator=C?|UniqueId=\PWMNTVWD\IMDZXQHY|Kind=1|AlternatePart=
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\Design Rule Check - CAM_DVB-CI.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Revision
-Value=rev.1.3
+Value=rev.1.4
 
 [Configuration1]
 Name=Sources
@@ -773,36 +795,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1227,10 +1219,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID0=RC0402FR-0710KL
+ComponentSymbolReference0=Resistor
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=SamacSys.SchLib
+ComponentDesignItemID1=74CBTLV1G125CRG4
+ComponentSymbolReference1=74CBTLV1G125CRG4
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1244,6 +1248,98 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Arrow Part Number
+ParameterUpdate0=1
+ParameterName1=Arrow Price/Stock
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=ComponentLink1Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink1URL
+ParameterUpdate5=1
+ParameterName6=ComponentLink2Description
+ParameterUpdate6=1
+ParameterName7=ComponentLink2URL
+ParameterUpdate7=1
+ParameterName8=Composition
+ParameterUpdate8=1
+ParameterName9=Datasheet Link
+ParameterUpdate9=1
+ParameterName10=Description
+ParameterUpdate10=1
+ParameterName11=Device Package
+ParameterUpdate11=1
+ParameterName12=Features
+ParameterUpdate12=1
+ParameterName13=Height
+ParameterUpdate13=1
+ParameterName14=Height - Seated (Max)
+ParameterUpdate14=1
+ParameterName15=LastUpdated
+ParameterUpdate15=1
+ParameterName16=Library Reference
+ParameterUpdate16=1
+ParameterName17=Lifecycle Status
+ParameterUpdate17=1
+ParameterName18=Manufacturer
+ParameterUpdate18=1
+ParameterName19=Manufacturer_Name
+ParameterUpdate19=1
+ParameterName20=Manufacturer_Part_Number
+ParameterUpdate20=1
+ParameterName21=Minimum Order
+ParameterUpdate21=1
+ParameterName22=Mouser Part Number
+ParameterUpdate22=1
+ParameterName23=Mouser Price/Stock
+ParameterUpdate23=1
+ParameterName24=Number of Terminations
+ParameterUpdate24=1
+ParameterName25=Operating Temperature
+ParameterUpdate25=1
+ParameterName26=Package / Case
+ParameterUpdate26=1
+ParameterName27=Packaging
+ParameterUpdate27=1
+ParameterName28=Part Number
+ParameterUpdate28=1
+ParameterName29=Part Status
+ParameterUpdate29=1
+ParameterName30=PartId
+ParameterUpdate30=1
+ParameterName31=Power (Watts)
+ParameterUpdate31=1
+ParameterName32=Price
+ParameterUpdate32=1
+ParameterName33=Resistance
+ParameterUpdate33=1
+ParameterName34=Series
+ParameterUpdate34=1
+ParameterName35=Size / Dimension
+ParameterUpdate35=1
+ParameterName36=Supplier 1
+ParameterUpdate36=1
+ParameterName37=Supplier Device Package
+ParameterUpdate37=1
+ParameterName38=Supplier Part Number 1
+ParameterUpdate38=1
+ParameterName39=Temperature Coefficient
+ParameterUpdate39=1
+ParameterName40=Tolerance
+ParameterUpdate40=1
+ParameterName41=Value
+ParameterUpdate41=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=SOT65P210X110-5N
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=YAGEO RES 0402_1005
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1252,7 +1348,7 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=+1V2|NetColor=clYellow
+Net1=NetName=+1V2|NetColor=$000099FF
 Net2=NetName=+2V5|NetColor=$000099FF
 Net3=NetName=+3V3|NetColor=clRed
 Net4=NetName=+3V3_STM|NetColor=$000099FF

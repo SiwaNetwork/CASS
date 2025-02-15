@@ -255,7 +255,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VBIKOEUY
 
 [Document13]
-DocumentPath=..\..\AltiumLL\SamacSys.SchLib
+DocumentPath=..\..\..\..\..\AltiumLL\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
