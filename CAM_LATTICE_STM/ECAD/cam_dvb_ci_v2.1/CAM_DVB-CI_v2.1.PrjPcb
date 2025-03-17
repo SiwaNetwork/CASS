@@ -153,7 +153,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PTFBHMUZ
 
 [Document7]
-DocumentPath=..\..\GLOBAL_OUT.OutJob
+DocumentPath=..\..\..\..\QUANTUM\РАЗРАБОТКИ\SHIWA_OUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

@@ -271,6 +271,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=..\..\..\..\QUANTUM\РАЗРАБОТКИ\SHIWA_OUT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=DE9C967C-115C-41D4-9FC3-906FDF985A33
 Description=release
@@ -288,6 +305,82 @@ Variation8=Designator=C?|UniqueId=\PWMNTVWD\IMDZXQHY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_BOM 2025-03-16 23-31.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\NC Drill\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GM
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\Gerber\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\NC Drill\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35\NC Drill\CAM_DVB-CI_v1.4_rev.1.4_GBR 2025-03-16 23-35.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_Pick&Place 2025-03-16 23-35\CAM_DVB-CI_v1.4_rev.1.4_Pick&Place 2025-03-16 23-35.csv
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_Pick&Place 2025-03-16 23-35\CAM_DVB-CI_v1.4_rev.1.4_Pick&Place 2025-03-16 23-35.txt
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_release BOM 2025-03-16 23-00.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\CAM_DVB-CI_v1.4_rev.1.4_release BOM 2025-03-16 23-27.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\Design Rule Check - CAM_DVB-CI.html
 DItemRevisionGUID=
 

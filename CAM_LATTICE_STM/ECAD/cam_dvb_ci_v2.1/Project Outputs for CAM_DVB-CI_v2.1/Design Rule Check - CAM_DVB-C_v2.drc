@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Documents\Altium\SM_Project\CASS\CAM_LATTICE_STM\ECAD\cam_dvb_ci_v2.1\CAM_DVB-C_v2.PcbDoc
-Date     : 10.03.2025
-Time     : 10:21:43
+Date     : 16.03.2025
+Time     : 23:47:25
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (Disabled)(All),(All)
 Rule Violations :0
@@ -246,4 +246,4 @@ Rule Violations :0
 
 Violations Detected : 159
 Waived Violations : 0
-Time Elapsed        : 00:00:15
+Time Elapsed        : 00:00:16
