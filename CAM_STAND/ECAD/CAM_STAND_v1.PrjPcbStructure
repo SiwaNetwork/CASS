@@ -1,0 +1,2 @@
+Record=TopLevelDocument|FileName=MAIN.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=MAIN.SchDoc|Designator=U_INFO|SchDesignator=U_INFO|FileName=INFO.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=INFO.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
