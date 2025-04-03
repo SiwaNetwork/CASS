@@ -366,14 +366,18 @@ DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.2.0_GBR 2024-10
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\Design Rule Check - CAM_DVB-C_v2.html
+DocumentPath=Project Outputs for CAM_DVB-CI_v2.01\Design Rule Check - CAM_DVB-C_v2.html
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.2.0_Pick&Place 2024-10-30 10-17\Pick Place for CAM_DVB-C_v2(release).csv
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\Design Rule Check - CAM_DVB-C_v2.html
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.2.0_Pick&Place 2024-10-30 10-17\Pick Place for CAM_DVB-C_v2(release).csv
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.2.0_Pick&Place 2024-10-30 10-17\Pick Place for CAM_DVB-C_v2(release).txt
 DItemRevisionGUID=
 
