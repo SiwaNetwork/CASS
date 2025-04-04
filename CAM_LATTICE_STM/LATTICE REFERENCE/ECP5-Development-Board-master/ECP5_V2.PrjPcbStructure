@@ -1,0 +1,7 @@
+Record=TopLevelDocument|FileName=[01] - POWER.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[01] - POWER.SchDoc|FileName=[02] - USB.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[01] - POWER.SchDoc|FileName=[03] - SDCARD.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[01] - POWER.SchDoc|FileName=[04] - RAM.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[01] - POWER.SchDoc|FileName=[05] - FLASH.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[01] - POWER.SchDoc|FileName=[06] - GPIO.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[01] - POWER.SchDoc|FileName=[07] - UNUSED.SchDoc|SheetNumber= 

@@ -1,0 +1,359 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title "Logicbone ECP5"
+Date "2020-06-27"
+Rev "rev0"
+Comp "https://github.com/oskirby/logicbone"
+Comment1 ""
+Comment2 ""
+Comment3 "Licensed under CERN OHL v1.2"
+Comment4 "Designed By: Owen Kirby"
+$EndDescr
+$Sheet
+S 1550 4950 1600 1550
+U 5DFC5A69
+F0 "FPGA Power" 50
+F1 "fpga-power.sch" 50
+F2 "SCL" I R 3150 5300 50 
+F3 "SDA" I R 3150 5400 50 
+F4 "PGOOD" I R 3150 5650 50 
+F5 "USB_D-" I L 1550 5400 50 
+F6 "USB_D+" I L 1550 5300 50 
+$EndSheet
+$Sheet
+S 3950 3150 1600 1500
+U 5DFC63AE
+F0 "FPGA SERDES" 50
+F1 "fpga-serdes.sch" 50
+F2 "25M_REFCLK" I L 3950 3600 50 
+F3 "SCL" I L 3950 3500 50 
+F4 "SDA" I L 3950 3400 50 
+F5 "FPGA_REFCLK+" I R 5550 3500 50 
+F6 "FPGA_REFCLK-" I R 5550 3600 50 
+F7 "M2_USB+" I L 3950 3950 50 
+F8 "M2_USB-" I L 3950 4050 50 
+F9 "M2_LED1" I L 3950 4200 50 
+F10 "M2_LED2" I L 3950 4300 50 
+$EndSheet
+$Sheet
+S 1550 3150 1600 1550
+U 5DFD59AE
+F0 "Ethernet" 50
+F1 "ethernet.sch" 50
+F2 "~SYS_RESET" I R 3150 3500 50 
+F3 "25M_REFCLK" I R 3150 3600 50 
+F4 "FPGA_USB+" I L 1550 3600 50 
+F5 "FPGA_USB-" I L 1550 3500 50 
+F6 "LED_USER1" I R 3150 4200 50 
+F7 "LED_USER2" I R 3150 4300 50 
+F8 "LED_USER3" I R 3150 4400 50 
+F9 "LED_USER4" I R 3150 4500 50 
+$EndSheet
+$Sheet
+S 3950 1350 1600 1550
+U 6202D981
+F0 "Exp Headers" 50
+F1 "exp-headers.sch" 50
+F2 "~SYS_RESET" I L 3950 1950 50 
+F3 "PWR_BUTTON" I L 3950 1850 50 
+F4 "SDA" I L 3950 2250 50 
+F5 "SCL" I L 3950 2350 50 
+$EndSheet
+Wire Wire Line
+	3100 1950 3350 1950
+Wire Wire Line
+	3950 1850 3100 1850
+Wire Wire Line
+	3150 3500 3350 3500
+Wire Wire Line
+	3350 3500 3350 1950
+Connection ~ 3350 1950
+Wire Wire Line
+	3350 1950 3950 1950
+$Sheet
+S 6600 3100 1600 1550
+U 5DFC5A6C
+F0 "FPGA Memory" 50
+F1 "fpga-memory.sch" 50
+F2 "DDR3_VREF" I R 8200 3550 50 
+F3 "REFCLK+" I L 6600 3500 50 
+F4 "REFCLK-" I L 6600 3600 50 
+$EndSheet
+$Sheet
+S 6600 1350 1550 1550
+U 5E0F6F0F
+F0 "DDR3 Power" 50
+F1 "ddr3-power.sch" 50
+F2 "VREF" I R 8150 1800 50 
+$EndSheet
+Wire Wire Line
+	8150 1800 8450 1800
+Wire Wire Line
+	3150 3600 3950 3600
+Wire Wire Line
+	3950 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 2250
+Wire Wire Line
+	3950 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 2350
+Wire Wire Line
+	3100 2250 3800 2250
+Wire Wire Line
+	3100 2350 3700 2350
+Connection ~ 3800 2250
+Wire Wire Line
+	3800 2250 3950 2250
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2350 3950 2350
+Wire Wire Line
+	5550 3500 6600 3500
+Wire Wire Line
+	5550 3600 6600 3600
+Wire Wire Line
+	8200 3550 8450 3550
+Wire Wire Line
+	8450 3550 8450 1800
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E126F27
+P 9500 5550
+F 0 "H4" H 9600 5596 50  0000 L CNN
+F 1 "MountingHole" H 9600 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5550 50  0001 C CNN
+F 3 "~" H 9500 5550 50  0001 C CNN
+	1    9500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E126EE9
+P 9500 5300
+F 0 "H3" H 9600 5346 50  0000 L CNN
+F 1 "MountingHole" H 9600 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5300 50  0001 C CNN
+F 3 "~" H 9500 5300 50  0001 C CNN
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E126EB5
+P 9500 5050
+F 0 "H2" H 9600 5096 50  0000 L CNN
+F 1 "MountingHole" H 9600 5005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 5050 50  0001 C CNN
+F 3 "~" H 9500 5050 50  0001 C CNN
+	1    9500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E126E27
+P 9500 4800
+F 0 "H1" H 9600 4846 50  0000 L CNN
+F 1 "MountingHole" H 9600 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9500 4800 50  0001 C CNN
+F 3 "~" H 9500 4800 50  0001 C CNN
+	1    9500 4800
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 1550 1350 1550 1550
+U 5E15C0BA
+F0 "USB and Programming" 50
+F1 "supervisor.sch" 50
+F2 "PWR_BUTTON" I R 3100 1850 50 
+F3 "~SYS_RESET" I R 3100 1950 50 
+F4 "SDA" I R 3100 2250 50 
+F5 "SCL" I R 3100 2350 50 
+F6 "~FPGA_INIT" I R 3100 1650 50 
+$EndSheet
+Wire Wire Line
+	3700 3500 3700 5300
+Wire Wire Line
+	3700 5300 3150 5300
+Connection ~ 3700 3500
+Wire Wire Line
+	3150 5400 3800 5400
+Wire Wire Line
+	3800 5400 3800 3400
+Connection ~ 3800 3400
+Wire Wire Line
+	3950 4200 3150 4200
+Wire Wire Line
+	3950 4300 3150 4300
+Wire Notes Line
+	5500 4850 5500 6450
+Wire Notes Line
+	5500 6450 4000 6450
+Wire Notes Line
+	4000 6450 4000 4850
+Wire Notes Line
+	4000 4850 5500 4850
+Text Notes 4150 6250 0    50   ~ 0
+INIT will drive the red\nLED on in case of error.
+$Comp
+L Device:R R?
+U 1 1 5ED0656C
+P 4250 5400
+AR Path="/5E15C0BA/5ED0656C" Ref="R?"  Part="1" 
+AR Path="/5ED0656C" Ref="R10"  Part="1" 
+F 0 "R10" V 4150 5400 50  0000 C CNN
+F 1 "240" V 4250 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 5400 50  0001 C CNN
+F 3 "~" H 4250 5400 50  0001 C CNN
+	1    4250 5400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5ED06575
+P 4250 5200
+AR Path="/5E15C0BA/5ED06575" Ref="#PWR?"  Part="1" 
+AR Path="/5ED06575" Ref="#PWR0195"  Part="1" 
+F 0 "#PWR0195" H 4250 5050 50  0001 C CNN
+F 1 "+3V3" H 4265 5373 50  0000 C CNN
+F 2 "" H 4250 5200 50  0001 C CNN
+F 3 "" H 4250 5200 50  0001 C CNN
+	1    4250 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5650 4250 5550
+Wire Wire Line
+	4350 5850 4250 5850
+Wire Wire Line
+	4250 5250 4250 5200
+$Comp
+L power:GND #PWR0221
+U 1 1 5ED0F97F
+P 5300 5950
+F 0 "#PWR0221" H 5300 5700 50  0001 C CNN
+F 1 "GND" H 5305 5777 50  0000 C CNN
+F 2 "" H 5300 5950 50  0001 C CNN
+F 3 "" H 5300 5950 50  0001 C CNN
+	1    5300 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5850 5300 5950
+Wire Wire Line
+	3150 5650 4250 5650
+Wire Wire Line
+	3100 1650 3350 1650
+Wire Wire Line
+	3350 1650 3350 1000
+Wire Wire Line
+	3350 1000 6000 1000
+Wire Wire Line
+	6000 1000 6000 5650
+Text Notes 4500 5250 0    50   ~ 0
+Releasing PGOOD will\nenable the green LED.
+Wire Wire Line
+	4950 5850 5300 5850
+Wire Wire Line
+	1550 3600 1400 3600
+Wire Wire Line
+	1400 3600 1400 5300
+Wire Wire Line
+	1400 5300 1550 5300
+Wire Wire Line
+	1300 3500 1300 5400
+Wire Wire Line
+	1300 5400 1550 5400
+Wire Wire Line
+	1300 3500 1550 3500
+Wire Wire Line
+	6000 5650 4950 5650
+Wire Wire Line
+	4350 5650 4250 5650
+Connection ~ 4250 5650
+Wire Wire Line
+	4250 5850 4250 5650
+$Comp
+L Device:LED_Dual_CACA D1
+U 1 1 5EAB3789
+P 4650 5750
+F 0 "D1" H 4650 6175 50  0000 C CNN
+F 1 "LED_RED_GREEN" H 4650 6084 50  0000 C CNN
+F 2 "KiCAD_Magic:LED_0805_DUAL" H 4680 5750 50  0001 C CNN
+F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Bi-Color%20Top%20View/IN-S85DATRG_V1.0.pdf" H 4680 5750 50  0001 C CNN
+F 4 "Inolux" H 4650 5750 50  0001 C CNN "Manufacturer"
+F 5 "IN-S85DATRG" H 4650 5750 50  0001 C CNN "MPN"
+	1    4650 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5EC37DFC
+P 8950 4800
+F 0 "FID4" H 9035 4846 50  0000 L CNN
+F 1 "Fiducial" H 9035 4755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 8950 4800 50  0001 C CNN
+F 3 "~" H 8950 4800 50  0001 C CNN
+	1    8950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5EC38DAD
+P 8950 5050
+F 0 "FID5" H 9035 5096 50  0000 L CNN
+F 1 "Fiducial" H 9035 5005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 8950 5050 50  0001 C CNN
+F 3 "~" H 8950 5050 50  0001 C CNN
+	1    8950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5EC3A23F
+P 8950 5300
+F 0 "FID6" H 9035 5346 50  0000 L CNN
+F 1 "Fiducial" H 9035 5255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 8950 5300 50  0001 C CNN
+F 3 "~" H 8950 5300 50  0001 C CNN
+	1    8950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5EC3A249
+P 8450 5300
+F 0 "FID3" H 8535 5346 50  0000 L CNN
+F 1 "Fiducial" H 8535 5255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 8450 5300 50  0001 C CNN
+F 3 "~" H 8450 5300 50  0001 C CNN
+	1    8450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5EC3C400
+P 8450 4800
+F 0 "FID1" H 8535 4846 50  0000 L CNN
+F 1 "Fiducial" H 8535 4755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 8450 4800 50  0001 C CNN
+F 3 "~" H 8450 4800 50  0001 C CNN
+	1    8450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5EC3C40A
+P 8450 5050
+F 0 "FID2" H 8535 5096 50  0000 L CNN
+F 1 "Fiducial" H 8535 5005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 8450 5050 50  0001 C CNN
+F 3 "~" H 8450 5050 50  0001 C CNN
+	1    8450 5050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

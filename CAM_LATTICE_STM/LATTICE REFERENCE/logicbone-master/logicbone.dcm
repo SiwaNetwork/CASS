@@ -1,0 +1,166 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G07
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G07
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G02
+D Single NOR Gate, Low-Voltage CMOS
+K Single Gate NOR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP ADC120
+D 8-Channel ADC
+$ENDCMP
+#
+$CMP Crystal_GND24
+D Four pin crystal, GND on pins 2 and 4
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP GCT_USB4110_USBC
+D USB 2.0-only Type-C Plug connector
+K usb universal serial bus type-C USB2.0
+F https://gct.co/files/drawings/usb4110.pdf
+$ENDCMP
+#
+$CMP LM94023
+D Dual-Gain Analog Temperature Sensor
+F https://www.ti.com/lit/ds/symlink/lm94023.pdf
+$ENDCMP
+#
+$CMP Micro_SD_MEM2075
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP TLA2518
+D Small,8-Channel,12-BitADC With SPI Interfaceand GPIOs
+K ADC
+F http://www.ti.com/lit/ds/symlink/tla2518.pdf
+$ENDCMP
+#
+$CMP TPS51200
+D Sink and Source DDR Termination Regulator, VSON-10
+K DDR LDO
+F http://www.ti.com/lit/ds/symlink/tps51200.pdf
+$ENDCMP
+#
+$CMP TPS51206
+D Sink and Source DDR Termination Regulator, VSON-10
+K DDR LDO
+F http://www.ti.com/lit/ds/symlink/tps51200.pdf
+$ENDCMP
+#
+$CMP VADC
+D Power flag, ADC Analog Power Supply
+K power-flag
+$ENDCMP
+#
+$CMP VCC1V8
+D Power flag, VCC at 1.8V
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3
+D Power flag, VCC at 3.3V
+K power-flag
+$ENDCMP
+#
+$CMP VCCAUX
+D Power flag, VCCAUX
+K power-flag
+$ENDCMP
+#
+$CMP VCCAUXTRX
+D Power flag, SERDES Auxilliary Power Supply
+K power-flag
+$ENDCMP
+#
+$CMP VCCIOA
+D Power flag, VCCIO Group A
+K power-flag
+$ENDCMP
+#
+$CMP VCCTRX
+D Power flag, SERDES RX/TX Buffer Supply Voltages
+K power-flag
+$ENDCMP
+#
+$CMP VCCTRXA
+D Power flag, SERDES Analog Supply
+K power-flag
+$ENDCMP
+#
+$CMP VCORE
+D Power flag, VCORE
+K power-flag
+$ENDCMP
+#
+$CMP VDDR
+D Power flag, DDR3 Memory Power Supply
+K power-flag
+$ENDCMP
+#
+$CMP VDDR_REF
+D Power flag, DDR3 Reference Voltage
+K power-flag
+$ENDCMP
+#
+$CMP VMAIN
+D Power flag, Main Power Supply
+K power-flag
+$ENDCMP
+#
+$CMP VMMC
+D Power flag, MMC/SD Power Supply
+K power-flag
+$ENDCMP
+#
+$CMP VTT
+D Power flag, Memory Termination Power Supply
+K power-flag
+$ENDCMP
+#
+#End Doc Library

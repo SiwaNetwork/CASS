@@ -1,0 +1,2735 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "caBGA256_LAT")
+Pad (Name "A1") (Location -236.2204628, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A2") (Location -204.72440338, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A3") (Location -173.22834396, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A4") (Location -141.73228455, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A5") (Location -110.23622513, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A6") (Location -78.74016571, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A7") (Location -47.24410629, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A8") (Location -15.74804688, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A9") (Location 15.74801254, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A10") (Location 47.24407196, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A11") (Location 78.74013138, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A12") (Location 110.2361908, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A13") (Location 141.73225021, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A14") (Location 173.22830963, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A15") (Location 204.72436905, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A16") (Location 236.22042847, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B1") (Location -236.2204628, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B2") (Location -204.72440338, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B3") (Location -173.22834396, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B4") (Location -141.73228455, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B5") (Location -110.23622513, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B6") (Location -78.74016571, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B7") (Location -47.24410629, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B8") (Location -15.74804688, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B9") (Location 15.74801254, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B10") (Location 47.24407196, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B11") (Location 78.74013138, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B12") (Location 110.2361908, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B13") (Location 141.73225021, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B14") (Location 173.22830963, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B15") (Location 204.72436905, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B16") (Location 236.22042847, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C1") (Location -236.2204628, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C2") (Location -204.72440338, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C3") (Location -173.22834396, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C4") (Location -141.73228455, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C5") (Location -110.23622513, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C6") (Location -78.74016571, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C7") (Location -47.24410629, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C8") (Location -15.74804688, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C9") (Location 15.74801254, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C10") (Location 47.24407196, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C11") (Location 78.74013138, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C12") (Location 110.2361908, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C13") (Location 141.73225021, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C14") (Location 173.22830963, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C15") (Location 204.72436905, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C16") (Location 236.22042847, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D1") (Location -236.2204628, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D2") (Location -204.72440338, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D3") (Location -173.22834396, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D4") (Location -141.73228455, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D5") (Location -110.23622513, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D6") (Location -78.74016571, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D7") (Location -47.24410629, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D8") (Location -15.74804688, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D9") (Location 15.74801254, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D10") (Location 47.24407196, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D11") (Location 78.74013138, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D12") (Location 110.2361908, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D13") (Location 141.73225021, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D14") (Location 173.22830963, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D15") (Location 204.72436905, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D16") (Location 236.22042847, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E1") (Location -236.2204628, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E2") (Location -204.72440338, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E3") (Location -173.22834396, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E4") (Location -141.73228455, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E5") (Location -110.23622513, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E6") (Location -78.74016571, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E7") (Location -47.24410629, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E8") (Location -15.74804688, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E9") (Location 15.74801254, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E10") (Location 47.24407196, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E11") (Location 78.74013138, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E12") (Location 110.2361908, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E13") (Location 141.73225021, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E14") (Location 173.22830963, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E15") (Location 204.72436905, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E16") (Location 236.22042847, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F1") (Location -236.2204628, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F2") (Location -204.72440338, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F3") (Location -173.22834396, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F4") (Location -141.73228455, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F5") (Location -110.23622513, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F6") (Location -78.74016571, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F7") (Location -47.24410629, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F8") (Location -15.74804688, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F9") (Location 15.74801254, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F10") (Location 47.24407196, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F11") (Location 78.74013138, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F12") (Location 110.2361908, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F13") (Location 141.73225021, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F14") (Location 173.22830963, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F15") (Location 204.72436905, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F16") (Location 236.22042847, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G1") (Location -236.2204628, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G2") (Location -204.72440338, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G3") (Location -173.22834396, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G4") (Location -141.73228455, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G5") (Location -110.23622513, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G6") (Location -78.74016571, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G7") (Location -47.24410629, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G8") (Location -15.74804688, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G9") (Location 15.74801254, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G10") (Location 47.24407196, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G11") (Location 78.74013138, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G12") (Location 110.2361908, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G13") (Location 141.73225021, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G14") (Location 173.22830963, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G15") (Location 204.72436905, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G16") (Location 236.22042847, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H1") (Location -236.2204628, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H2") (Location -204.72440338, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H3") (Location -173.22834396, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H4") (Location -141.73228455, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H5") (Location -110.23622513, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H6") (Location -78.74016571, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H7") (Location -47.24410629, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H8") (Location -15.74804688, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H9") (Location 15.74801254, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H10") (Location 47.24407196, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H11") (Location 78.74013138, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H12") (Location 110.2361908, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H13") (Location 141.73225021, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H14") (Location 173.22830963, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H15") (Location 204.72436905, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H16") (Location 236.22042847, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J1") (Location -236.2204628, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J2") (Location -204.72440338, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J3") (Location -173.22834396, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J4") (Location -141.73228455, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J5") (Location -110.23622513, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J6") (Location -78.74016571, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J7") (Location -47.24410629, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J8") (Location -15.74804688, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J9") (Location 15.74801254, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J10") (Location 47.24407196, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J11") (Location 78.74013138, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J12") (Location 110.2361908, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J13") (Location 141.73225021, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J14") (Location 173.22830963, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J15") (Location 204.72436905, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J16") (Location 236.22042847, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K1") (Location -236.2204628, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K2") (Location -204.72440338, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K3") (Location -173.22834396, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K4") (Location -141.73228455, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K5") (Location -110.23622513, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K6") (Location -78.74016571, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K7") (Location -47.24410629, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K8") (Location -15.74804688, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K9") (Location 15.74801254, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K10") (Location 47.24407196, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K11") (Location 78.74013138, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K12") (Location 110.2361908, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K13") (Location 141.73225021, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K14") (Location 173.22830963, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K15") (Location 204.72436905, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K16") (Location 236.22042847, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L1") (Location -236.2204628, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L2") (Location -204.72440338, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L3") (Location -173.22834396, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L4") (Location -141.73228455, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L5") (Location -110.23622513, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L6") (Location -78.74016571, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L7") (Location -47.24410629, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L8") (Location -15.74804688, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L9") (Location 15.74801254, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L10") (Location 47.24407196, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L11") (Location 78.74013138, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L12") (Location 110.2361908, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L13") (Location 141.73225021, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L14") (Location 173.22830963, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L15") (Location 204.72436905, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L16") (Location 236.22042847, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M1") (Location -236.2204628, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M2") (Location -204.72440338, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M3") (Location -173.22834396, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M4") (Location -141.73228455, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M5") (Location -110.23622513, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M6") (Location -78.74016571, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M7") (Location -47.24410629, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M8") (Location -15.74804688, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M9") (Location 15.74801254, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M10") (Location 47.24407196, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M11") (Location 78.74013138, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M12") (Location 110.2361908, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M13") (Location 141.73225021, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M14") (Location 173.22830963, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M15") (Location 204.72436905, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M16") (Location 236.22042847, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N1") (Location -236.2204628, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N2") (Location -204.72440338, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N3") (Location -173.22834396, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N4") (Location -141.73228455, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N5") (Location -110.23622513, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N6") (Location -78.74016571, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N7") (Location -47.24410629, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N8") (Location -15.74804688, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N9") (Location 15.74801254, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N10") (Location 47.24407196, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N11") (Location 78.74013138, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N12") (Location 110.2361908, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N13") (Location 141.73225021, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N14") (Location 173.22830963, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N15") (Location 204.72436905, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N16") (Location 236.22042847, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P1") (Location -236.2204628, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P2") (Location -204.72440338, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P3") (Location -173.22834396, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P4") (Location -141.73228455, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P5") (Location -110.23622513, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P6") (Location -78.74016571, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P7") (Location -47.24410629, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P8") (Location -15.74804688, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P9") (Location 15.74801254, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P10") (Location 47.24407196, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P11") (Location 78.74013138, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P12") (Location 110.2361908, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P13") (Location 141.73225021, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P14") (Location 173.22830963, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P15") (Location 204.72436905, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P16") (Location 236.22042847, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R1") (Location -236.2204628, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R2") (Location -204.72440338, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R3") (Location -173.22834396, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R4") (Location -141.73228455, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R5") (Location -110.23622513, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R6") (Location -78.74016571, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R7") (Location -47.24410629, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R8") (Location -15.74804688, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R9") (Location 15.74801254, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R10") (Location 47.24407196, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R11") (Location 78.74013138, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R12") (Location 110.2361908, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R13") (Location 141.73225021, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R14") (Location 173.22830963, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R15") (Location 204.72436905, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R16") (Location 236.22042847, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T1") (Location -236.2204628, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T2") (Location -204.72440338, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T3") (Location -173.22834396, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T4") (Location -141.73228455, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T5") (Location -110.23622513, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T6") (Location -78.74016571, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T7") (Location -47.24410629, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T8") (Location -15.74804688, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T9") (Location 15.74801254, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T10") (Location 47.24407196, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T11") (Location 78.74013138, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T12") (Location 110.2361908, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T13") (Location 141.73225021, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T14") (Location 173.22830963, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T15") (Location 204.72436905, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T16") (Location 236.22042847, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 16) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 6) (Start -275.50001717, 110.24) (End -285.50001717, 110.24) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, 110.24) (End 285.49998283, 110.24) (Layer TopOverlay) 
+Line (Width 6) (Start -275.50001717, -47.24) (End -285.50001717, -47.24) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, -47.24) (End 285.49998283, -47.24) (Layer TopOverlay) 
+Line (Width 6) (Start -275.50001717, -204.72) (End -285.50001717, -204.72) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, -204.72) (End 285.49998283, -204.72) (Layer TopOverlay) 
+Line (Width 6) (Start -110.24, 275.49998283) (End -110.24, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start -110.24, -275.50001717) (End -110.24, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start 47.24, 275.49998283) (End 47.24, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start 47.24, -275.50001717) (End 47.24, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start 204.72, 275.49998283) (End 204.72, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start 204.72, -275.50001717) (End 204.72, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start -280.5, -280.5) (End 280.5, -280.5) (Layer TopOverlay) 
+Line (Width 6) (Start 280.5, -280.5) (End 280.5, 280.5) (Layer TopOverlay) 
+Line (Width 6) (Start 280.5, 280.5) (End -280.5, 280.5) (Layer TopOverlay) 
+Line (Width 6) (Start -280.5, 280.5) (End -280.5, -280.5) (Layer TopOverlay) 
+Text (Location -325.50001717, 211.2204628) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "A")
+Text (Location -325.50001717, -261.22042847) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "T")
+Text (Location -211.2204628, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "1")
+Text (Location 261.22042847, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "16")
+Line (Width 1) (Start -259.75198364, 275.5) (End -275.5, 259.75198364) (Layer Mechanical13) 
+Line (Width 1) (Start -275.5, -275.5) (End 275.5, -275.5) (Layer Mechanical13) 
+Line (Width 1) (Start 275.5, -275.5) (End 275.5, 275.5) (Layer Mechanical13) 
+Line (Width 1) (Start 275.5, 275.5) (End -275.5, 275.5) (Layer Mechanical13) 
+Line (Width 1) (Start -275.5, 275.5) (End -275.5, -275.5) (Layer Mechanical13) 
+Text (Location -325.50001717, 211.2204628) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "A")
+Text (Location -325.50001717, -261.22042847) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "T")
+Text (Location -211.2204628, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "1")
+Text (Location 261.22042847, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "16")
+Text (Location -300.50001717, 211.2204628) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "A")
+Text (Location -300.50001717, -261.22042847) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "T")
+Text (Location -261.2204628, 300.49998283) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "1")
+Text (Location 211.22042847, 300.49998283) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "16")
+Line (Width 6) (Start -285.5, -285.5) (End -285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start -285.5, 285.5) (End 285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, 285.5) (End 285.5, -285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, -285.5) (End -285.5, -285.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-285.5, -285.5)
+Point (-285.5, 285.5)
+Point (285.5, 285.5)
+Point (285.5, -285.5)
+EndPolygon
+Step (Name caBGA256_LAT.step)
+EndFootprint
+
+Footprint (Name "caBGA256_LAT-M")
+Pad (Name "A1") (Location -236.2204628, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A2") (Location -204.72440338, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A3") (Location -173.22834396, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A4") (Location -141.73228455, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A5") (Location -110.23622513, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A6") (Location -78.74016571, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A7") (Location -47.24410629, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A8") (Location -15.74804688, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A9") (Location 15.74801254, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A10") (Location 47.24407196, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A11") (Location 78.74013138, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A12") (Location 110.2361908, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A13") (Location 141.73225021, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A14") (Location 173.22830963, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A15") (Location 204.72436905, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A16") (Location 236.22042847, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B1") (Location -236.2204628, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B2") (Location -204.72440338, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B3") (Location -173.22834396, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B4") (Location -141.73228455, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B5") (Location -110.23622513, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B6") (Location -78.74016571, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B7") (Location -47.24410629, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B8") (Location -15.74804688, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B9") (Location 15.74801254, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B10") (Location 47.24407196, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B11") (Location 78.74013138, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B12") (Location 110.2361908, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B13") (Location 141.73225021, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B14") (Location 173.22830963, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B15") (Location 204.72436905, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B16") (Location 236.22042847, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C1") (Location -236.2204628, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C2") (Location -204.72440338, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C3") (Location -173.22834396, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C4") (Location -141.73228455, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C5") (Location -110.23622513, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C6") (Location -78.74016571, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C7") (Location -47.24410629, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C8") (Location -15.74804688, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C9") (Location 15.74801254, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C10") (Location 47.24407196, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C11") (Location 78.74013138, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C12") (Location 110.2361908, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C13") (Location 141.73225021, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C14") (Location 173.22830963, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C15") (Location 204.72436905, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C16") (Location 236.22042847, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D1") (Location -236.2204628, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D2") (Location -204.72440338, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D3") (Location -173.22834396, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D4") (Location -141.73228455, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D5") (Location -110.23622513, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D6") (Location -78.74016571, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D7") (Location -47.24410629, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D8") (Location -15.74804688, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D9") (Location 15.74801254, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D10") (Location 47.24407196, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D11") (Location 78.74013138, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D12") (Location 110.2361908, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D13") (Location 141.73225021, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D14") (Location 173.22830963, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D15") (Location 204.72436905, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D16") (Location 236.22042847, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E1") (Location -236.2204628, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E2") (Location -204.72440338, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E3") (Location -173.22834396, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E4") (Location -141.73228455, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E5") (Location -110.23622513, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E6") (Location -78.74016571, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E7") (Location -47.24410629, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E8") (Location -15.74804688, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E9") (Location 15.74801254, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E10") (Location 47.24407196, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E11") (Location 78.74013138, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E12") (Location 110.2361908, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E13") (Location 141.73225021, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E14") (Location 173.22830963, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E15") (Location 204.72436905, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E16") (Location 236.22042847, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F1") (Location -236.2204628, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F2") (Location -204.72440338, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F3") (Location -173.22834396, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F4") (Location -141.73228455, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F5") (Location -110.23622513, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F6") (Location -78.74016571, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F7") (Location -47.24410629, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F8") (Location -15.74804688, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F9") (Location 15.74801254, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F10") (Location 47.24407196, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F11") (Location 78.74013138, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F12") (Location 110.2361908, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F13") (Location 141.73225021, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F14") (Location 173.22830963, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F15") (Location 204.72436905, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F16") (Location 236.22042847, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G1") (Location -236.2204628, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G2") (Location -204.72440338, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G3") (Location -173.22834396, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G4") (Location -141.73228455, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G5") (Location -110.23622513, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G6") (Location -78.74016571, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G7") (Location -47.24410629, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G8") (Location -15.74804688, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G9") (Location 15.74801254, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G10") (Location 47.24407196, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G11") (Location 78.74013138, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G12") (Location 110.2361908, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G13") (Location 141.73225021, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G14") (Location 173.22830963, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G15") (Location 204.72436905, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G16") (Location 236.22042847, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H1") (Location -236.2204628, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H2") (Location -204.72440338, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H3") (Location -173.22834396, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H4") (Location -141.73228455, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H5") (Location -110.23622513, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H6") (Location -78.74016571, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H7") (Location -47.24410629, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H8") (Location -15.74804688, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H9") (Location 15.74801254, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H10") (Location 47.24407196, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H11") (Location 78.74013138, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H12") (Location 110.2361908, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H13") (Location 141.73225021, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H14") (Location 173.22830963, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H15") (Location 204.72436905, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H16") (Location 236.22042847, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J1") (Location -236.2204628, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J2") (Location -204.72440338, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J3") (Location -173.22834396, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J4") (Location -141.73228455, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J5") (Location -110.23622513, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J6") (Location -78.74016571, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J7") (Location -47.24410629, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J8") (Location -15.74804688, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J9") (Location 15.74801254, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J10") (Location 47.24407196, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J11") (Location 78.74013138, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J12") (Location 110.2361908, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J13") (Location 141.73225021, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J14") (Location 173.22830963, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J15") (Location 204.72436905, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J16") (Location 236.22042847, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K1") (Location -236.2204628, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K2") (Location -204.72440338, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K3") (Location -173.22834396, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K4") (Location -141.73228455, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K5") (Location -110.23622513, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K6") (Location -78.74016571, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K7") (Location -47.24410629, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K8") (Location -15.74804688, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K9") (Location 15.74801254, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K10") (Location 47.24407196, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K11") (Location 78.74013138, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K12") (Location 110.2361908, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K13") (Location 141.73225021, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K14") (Location 173.22830963, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K15") (Location 204.72436905, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K16") (Location 236.22042847, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L1") (Location -236.2204628, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L2") (Location -204.72440338, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L3") (Location -173.22834396, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L4") (Location -141.73228455, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L5") (Location -110.23622513, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L6") (Location -78.74016571, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L7") (Location -47.24410629, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L8") (Location -15.74804688, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L9") (Location 15.74801254, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L10") (Location 47.24407196, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L11") (Location 78.74013138, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L12") (Location 110.2361908, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L13") (Location 141.73225021, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L14") (Location 173.22830963, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L15") (Location 204.72436905, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L16") (Location 236.22042847, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M1") (Location -236.2204628, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M2") (Location -204.72440338, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M3") (Location -173.22834396, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M4") (Location -141.73228455, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M5") (Location -110.23622513, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M6") (Location -78.74016571, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M7") (Location -47.24410629, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M8") (Location -15.74804688, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M9") (Location 15.74801254, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M10") (Location 47.24407196, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M11") (Location 78.74013138, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M12") (Location 110.2361908, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M13") (Location 141.73225021, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M14") (Location 173.22830963, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M15") (Location 204.72436905, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M16") (Location 236.22042847, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N1") (Location -236.2204628, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N2") (Location -204.72440338, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N3") (Location -173.22834396, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N4") (Location -141.73228455, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N5") (Location -110.23622513, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N6") (Location -78.74016571, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N7") (Location -47.24410629, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N8") (Location -15.74804688, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N9") (Location 15.74801254, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N10") (Location 47.24407196, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N11") (Location 78.74013138, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N12") (Location 110.2361908, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N13") (Location 141.73225021, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N14") (Location 173.22830963, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N15") (Location 204.72436905, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N16") (Location 236.22042847, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P1") (Location -236.2204628, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P2") (Location -204.72440338, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P3") (Location -173.22834396, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P4") (Location -141.73228455, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P5") (Location -110.23622513, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P6") (Location -78.74016571, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P7") (Location -47.24410629, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P8") (Location -15.74804688, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P9") (Location 15.74801254, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P10") (Location 47.24407196, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P11") (Location 78.74013138, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P12") (Location 110.2361908, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P13") (Location 141.73225021, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P14") (Location 173.22830963, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P15") (Location 204.72436905, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P16") (Location 236.22042847, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R1") (Location -236.2204628, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R2") (Location -204.72440338, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R3") (Location -173.22834396, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R4") (Location -141.73228455, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R5") (Location -110.23622513, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R6") (Location -78.74016571, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R7") (Location -47.24410629, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R8") (Location -15.74804688, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R9") (Location 15.74801254, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R10") (Location 47.24407196, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R11") (Location 78.74013138, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R12") (Location 110.2361908, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R13") (Location 141.73225021, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R14") (Location 173.22830963, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R15") (Location 204.72436905, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R16") (Location 236.22042847, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T1") (Location -236.2204628, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T2") (Location -204.72440338, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T3") (Location -173.22834396, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T4") (Location -141.73228455, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T5") (Location -110.23622513, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T6") (Location -78.74016571, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T7") (Location -47.24410629, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T8") (Location -15.74804688, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T9") (Location 15.74801254, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T10") (Location 47.24407196, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T11") (Location 78.74013138, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T12") (Location 110.2361908, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T13") (Location 141.73225021, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T14") (Location 173.22830963, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T15") (Location 204.72436905, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T16") (Location 236.22042847, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 17, 17) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 6) (Start -275.50001717, 110.24) (End -285.50001717, 110.24) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, 110.24) (End 285.49998283, 110.24) (Layer TopOverlay) 
+Line (Width 6) (Start -275.50001717, -47.24) (End -285.50001717, -47.24) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, -47.24) (End 285.49998283, -47.24) (Layer TopOverlay) 
+Line (Width 6) (Start -275.50001717, -204.72) (End -285.50001717, -204.72) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, -204.72) (End 285.49998283, -204.72) (Layer TopOverlay) 
+Line (Width 6) (Start -110.24, 275.49998283) (End -110.24, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start -110.24, -275.50001717) (End -110.24, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start 47.24, 275.49998283) (End 47.24, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start 47.24, -275.50001717) (End 47.24, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start 204.72, 275.49998283) (End 204.72, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start 204.72, -275.50001717) (End 204.72, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start -280.5, -280.5) (End 280.5, -280.5) (Layer TopOverlay) 
+Line (Width 6) (Start 280.5, -280.5) (End 280.5, 280.5) (Layer TopOverlay) 
+Line (Width 6) (Start 280.5, 280.5) (End -280.5, 280.5) (Layer TopOverlay) 
+Line (Width 6) (Start -280.5, 280.5) (End -280.5, -280.5) (Layer TopOverlay) 
+Text (Location -325.50001717, 211.2204628) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "A")
+Text (Location -325.50001717, -261.22042847) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "T")
+Text (Location -211.2204628, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "1")
+Text (Location 261.22042847, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "16")
+Line (Width 1) (Start -259.75198364, 275.5) (End -275.5, 259.75198364) (Layer Mechanical13) 
+Line (Width 1) (Start -275.5, -275.5) (End 275.5, -275.5) (Layer Mechanical13) 
+Line (Width 1) (Start 275.5, -275.5) (End 275.5, 275.5) (Layer Mechanical13) 
+Line (Width 1) (Start 275.5, 275.5) (End -275.5, 275.5) (Layer Mechanical13) 
+Line (Width 1) (Start -275.5, 275.5) (End -275.5, -275.5) (Layer Mechanical13) 
+Text (Location -325.50001717, 211.2204628) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "A")
+Text (Location -325.50001717, -261.22042847) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "T")
+Text (Location -211.2204628, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "1")
+Text (Location 261.22042847, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "16")
+Text (Location -300.50001717, 211.2204628) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "A")
+Text (Location -300.50001717, -261.22042847) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "T")
+Text (Location -261.2204628, 300.49998283) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "1")
+Text (Location 211.22042847, 300.49998283) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "16")
+Line (Width 6) (Start -285.5, -285.5) (End -285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start -285.5, 285.5) (End 285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, 285.5) (End 285.5, -285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, -285.5) (End -285.5, -285.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-285.5, -285.5)
+Point (-285.5, 285.5)
+Point (285.5, 285.5)
+Point (285.5, -285.5)
+EndPolygon
+Polygon (PointCount 4) (Layer KeepOutLayer) 
+Point (-269.46847534, 269.46847534)
+Point (269.46847534, 269.46847534)
+Point (269.46847534, -269.46847534)
+Point (-269.46847534, -269.46847534)
+EndPolygon
+Step (Name caBGA256_LAT.step)
+EndFootprint
+
+Footprint (Name "caBGA256_LAT-L")
+Pad (Name "A1") (Location -236.2204628, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A2") (Location -204.72440338, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A3") (Location -173.22834396, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A4") (Location -141.73228455, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A5") (Location -110.23622513, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A6") (Location -78.74016571, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A7") (Location -47.24410629, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A8") (Location -15.74804688, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A9") (Location 15.74801254, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A10") (Location 47.24407196, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A11") (Location 78.74013138, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A12") (Location 110.2361908, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A13") (Location 141.73225021, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A14") (Location 173.22830963, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A15") (Location 204.72436905, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "A16") (Location 236.22042847, 236.2204628) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B1") (Location -236.2204628, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B2") (Location -204.72440338, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B3") (Location -173.22834396, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B4") (Location -141.73228455, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B5") (Location -110.23622513, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B6") (Location -78.74016571, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B7") (Location -47.24410629, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B8") (Location -15.74804688, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B9") (Location 15.74801254, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B10") (Location 47.24407196, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B11") (Location 78.74013138, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B12") (Location 110.2361908, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B13") (Location 141.73225021, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B14") (Location 173.22830963, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B15") (Location 204.72436905, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "B16") (Location 236.22042847, 204.72440338) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C1") (Location -236.2204628, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C2") (Location -204.72440338, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C3") (Location -173.22834396, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C4") (Location -141.73228455, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C5") (Location -110.23622513, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C6") (Location -78.74016571, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C7") (Location -47.24410629, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C8") (Location -15.74804688, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C9") (Location 15.74801254, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C10") (Location 47.24407196, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C11") (Location 78.74013138, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C12") (Location 110.2361908, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C13") (Location 141.73225021, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C14") (Location 173.22830963, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C15") (Location 204.72436905, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "C16") (Location 236.22042847, 173.22834396) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D1") (Location -236.2204628, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D2") (Location -204.72440338, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D3") (Location -173.22834396, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D4") (Location -141.73228455, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D5") (Location -110.23622513, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D6") (Location -78.74016571, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D7") (Location -47.24410629, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D8") (Location -15.74804688, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D9") (Location 15.74801254, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D10") (Location 47.24407196, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D11") (Location 78.74013138, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D12") (Location 110.2361908, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D13") (Location 141.73225021, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D14") (Location 173.22830963, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D15") (Location 204.72436905, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "D16") (Location 236.22042847, 141.73228455) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E1") (Location -236.2204628, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E2") (Location -204.72440338, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E3") (Location -173.22834396, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E4") (Location -141.73228455, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E5") (Location -110.23622513, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E6") (Location -78.74016571, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E7") (Location -47.24410629, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E8") (Location -15.74804688, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E9") (Location 15.74801254, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E10") (Location 47.24407196, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E11") (Location 78.74013138, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E12") (Location 110.2361908, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E13") (Location 141.73225021, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E14") (Location 173.22830963, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E15") (Location 204.72436905, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "E16") (Location 236.22042847, 110.23622513) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F1") (Location -236.2204628, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F2") (Location -204.72440338, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F3") (Location -173.22834396, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F4") (Location -141.73228455, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F5") (Location -110.23622513, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F6") (Location -78.74016571, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F7") (Location -47.24410629, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F8") (Location -15.74804688, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F9") (Location 15.74801254, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F10") (Location 47.24407196, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F11") (Location 78.74013138, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F12") (Location 110.2361908, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F13") (Location 141.73225021, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F14") (Location 173.22830963, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F15") (Location 204.72436905, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "F16") (Location 236.22042847, 78.74016571) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G1") (Location -236.2204628, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G2") (Location -204.72440338, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G3") (Location -173.22834396, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G4") (Location -141.73228455, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G5") (Location -110.23622513, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G6") (Location -78.74016571, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G7") (Location -47.24410629, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G8") (Location -15.74804688, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G9") (Location 15.74801254, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G10") (Location 47.24407196, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G11") (Location 78.74013138, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G12") (Location 110.2361908, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G13") (Location 141.73225021, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G14") (Location 173.22830963, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G15") (Location 204.72436905, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "G16") (Location 236.22042847, 47.24410629) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H1") (Location -236.2204628, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H2") (Location -204.72440338, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H3") (Location -173.22834396, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H4") (Location -141.73228455, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H5") (Location -110.23622513, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H6") (Location -78.74016571, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H7") (Location -47.24410629, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H8") (Location -15.74804688, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H9") (Location 15.74801254, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H10") (Location 47.24407196, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H11") (Location 78.74013138, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H12") (Location 110.2361908, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H13") (Location 141.73225021, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H14") (Location 173.22830963, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H15") (Location 204.72436905, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "H16") (Location 236.22042847, 15.74804688) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J1") (Location -236.2204628, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J2") (Location -204.72440338, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J3") (Location -173.22834396, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J4") (Location -141.73228455, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J5") (Location -110.23622513, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J6") (Location -78.74016571, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J7") (Location -47.24410629, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J8") (Location -15.74804688, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J9") (Location 15.74801254, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J10") (Location 47.24407196, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J11") (Location 78.74013138, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J12") (Location 110.2361908, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J13") (Location 141.73225021, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J14") (Location 173.22830963, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J15") (Location 204.72436905, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "J16") (Location 236.22042847, -15.74801254) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K1") (Location -236.2204628, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K2") (Location -204.72440338, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K3") (Location -173.22834396, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K4") (Location -141.73228455, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K5") (Location -110.23622513, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K6") (Location -78.74016571, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K7") (Location -47.24410629, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K8") (Location -15.74804688, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K9") (Location 15.74801254, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K10") (Location 47.24407196, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K11") (Location 78.74013138, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K12") (Location 110.2361908, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K13") (Location 141.73225021, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K14") (Location 173.22830963, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K15") (Location 204.72436905, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "K16") (Location 236.22042847, -47.24407196) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L1") (Location -236.2204628, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L2") (Location -204.72440338, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L3") (Location -173.22834396, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L4") (Location -141.73228455, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L5") (Location -110.23622513, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L6") (Location -78.74016571, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L7") (Location -47.24410629, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L8") (Location -15.74804688, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L9") (Location 15.74801254, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L10") (Location 47.24407196, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L11") (Location 78.74013138, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L12") (Location 110.2361908, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L13") (Location 141.73225021, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L14") (Location 173.22830963, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L15") (Location 204.72436905, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "L16") (Location 236.22042847, -78.74013138) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M1") (Location -236.2204628, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M2") (Location -204.72440338, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M3") (Location -173.22834396, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M4") (Location -141.73228455, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M5") (Location -110.23622513, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M6") (Location -78.74016571, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M7") (Location -47.24410629, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M8") (Location -15.74804688, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M9") (Location 15.74801254, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M10") (Location 47.24407196, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M11") (Location 78.74013138, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M12") (Location 110.2361908, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M13") (Location 141.73225021, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M14") (Location 173.22830963, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M15") (Location 204.72436905, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "M16") (Location 236.22042847, -110.2361908) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N1") (Location -236.2204628, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N2") (Location -204.72440338, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N3") (Location -173.22834396, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N4") (Location -141.73228455, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N5") (Location -110.23622513, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N6") (Location -78.74016571, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N7") (Location -47.24410629, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N8") (Location -15.74804688, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N9") (Location 15.74801254, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N10") (Location 47.24407196, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N11") (Location 78.74013138, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N12") (Location 110.2361908, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N13") (Location 141.73225021, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N14") (Location 173.22830963, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N15") (Location 204.72436905, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "N16") (Location 236.22042847, -141.73225021) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P1") (Location -236.2204628, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P2") (Location -204.72440338, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P3") (Location -173.22834396, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P4") (Location -141.73228455, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P5") (Location -110.23622513, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P6") (Location -78.74016571, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P7") (Location -47.24410629, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P8") (Location -15.74804688, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P9") (Location 15.74801254, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P10") (Location 47.24407196, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P11") (Location 78.74013138, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P12") (Location 110.2361908, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P13") (Location 141.73225021, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P14") (Location 173.22830963, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P15") (Location 204.72436905, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "P16") (Location 236.22042847, -173.22830963) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R1") (Location -236.2204628, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R2") (Location -204.72440338, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R3") (Location -173.22834396, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R4") (Location -141.73228455, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R5") (Location -110.23622513, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R6") (Location -78.74016571, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R7") (Location -47.24410629, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R8") (Location -15.74804688, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R9") (Location 15.74801254, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R10") (Location 47.24407196, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R11") (Location 78.74013138, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R12") (Location 110.2361908, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R13") (Location 141.73225021, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R14") (Location 173.22830963, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R15") (Location 204.72436905, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "R16") (Location 236.22042847, -204.72436905) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T1") (Location -236.2204628, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T2") (Location -204.72440338, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T3") (Location -173.22834396, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T4") (Location -141.73228455, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T5") (Location -110.23622513, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T6") (Location -78.74016571, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T7") (Location -47.24410629, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T8") (Location -15.74804688, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T9") (Location 15.74801254, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T10") (Location 47.24407196, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T11") (Location 78.74013138, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T12") (Location 110.2361908, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T13") (Location 141.73225021, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T14") (Location 173.22830963, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T15") (Location 204.72436905, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "T16") (Location 236.22042847, -236.22042847) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 15, 15) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 6) (Start -275.50001717, 110.24) (End -285.50001717, 110.24) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, 110.24) (End 285.49998283, 110.24) (Layer TopOverlay) 
+Line (Width 6) (Start -275.50001717, -47.24) (End -285.50001717, -47.24) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, -47.24) (End 285.49998283, -47.24) (Layer TopOverlay) 
+Line (Width 6) (Start -275.50001717, -204.72) (End -285.50001717, -204.72) (Layer TopOverlay) 
+Line (Width 6) (Start 275.49998283, -204.72) (End 285.49998283, -204.72) (Layer TopOverlay) 
+Line (Width 6) (Start -110.24, 275.49998283) (End -110.24, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start -110.24, -275.50001717) (End -110.24, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start 47.24, 275.49998283) (End 47.24, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start 47.24, -275.50001717) (End 47.24, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start 204.72, 275.49998283) (End 204.72, 285.49998283) (Layer TopOverlay) 
+Line (Width 6) (Start 204.72, -275.50001717) (End 204.72, -285.50001717) (Layer TopOverlay) 
+Line (Width 6) (Start -280.5, -280.5) (End 280.5, -280.5) (Layer TopOverlay) 
+Line (Width 6) (Start 280.5, -280.5) (End 280.5, 280.5) (Layer TopOverlay) 
+Line (Width 6) (Start 280.5, 280.5) (End -280.5, 280.5) (Layer TopOverlay) 
+Line (Width 6) (Start -280.5, 280.5) (End -280.5, -280.5) (Layer TopOverlay) 
+Text (Location -325.50001717, 211.2204628) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "A")
+Text (Location -325.50001717, -261.22042847) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "T")
+Text (Location -211.2204628, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "1")
+Text (Location 261.22042847, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer TopOverlay) (Value "16")
+Line (Width 1) (Start -259.75198364, 275.5) (End -275.5, 259.75198364) (Layer Mechanical13) 
+Line (Width 1) (Start -275.5, -275.5) (End 275.5, -275.5) (Layer Mechanical13) 
+Line (Width 1) (Start 275.5, -275.5) (End 275.5, 275.5) (Layer Mechanical13) 
+Line (Width 1) (Start 275.5, 275.5) (End -275.5, 275.5) (Layer Mechanical13) 
+Line (Width 1) (Start -275.5, 275.5) (End -275.5, -275.5) (Layer Mechanical13) 
+Text (Location -325.50001717, 211.2204628) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "A")
+Text (Location -325.50001717, -261.22042847) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "T")
+Text (Location -211.2204628, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "1")
+Text (Location 261.22042847, 300.49998283) (Height 50) (Width 3) (Rotation 90) (Layer Mechanical13) (Value "16")
+Text (Location -300.50001717, 211.2204628) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "A")
+Text (Location -300.50001717, -261.22042847) (Mirrored True) (Height 50) (Width 3) (Rotation 0) (Layer BottomOverlay) (Value "T")
+Text (Location -261.2204628, 300.49998283) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "1")
+Text (Location 211.22042847, 300.49998283) (Mirrored True) (Height 50) (Width 3) (Rotation -90) (Layer BottomOverlay) (Value "16")
+Line (Width 6) (Start -285.5, -285.5) (End -285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start -285.5, 285.5) (End 285.5, 285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, 285.5) (End 285.5, -285.5) (Layer Mechanical15) 
+Line (Width 6) (Start 285.5, -285.5) (End -285.5, -285.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-285.5, -285.5)
+Point (-285.5, 285.5)
+Point (285.5, 285.5)
+Point (285.5, -285.5)
+EndPolygon
+Polygon (PointCount 4) (Layer KeepOutLayer) 
+Point (-269.46847534, 269.46847534)
+Point (269.46847534, 269.46847534)
+Point (269.46847534, -269.46847534)
+Point (-269.46847534, -269.46847534)
+EndPolygon
+Step (Name caBGA256_LAT.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "LFE5U-45F-7BG256I") (PartCount 3) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "A1") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A2") (Name Visible "PT4A") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 300, -200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A3") (Name Visible "PT6A") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 300, -300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A4") (Name Visible "PT6B") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 300, -400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A5") (Name Visible "PT18A") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 300, -500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A6") (Name Visible "PT18B") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Pin (Location 300, -600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A7") (Name Visible "PT38A") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 1)
+Pin (Location 300, -700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A8") (Name Visible "PT38B") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 1)
+Pin (Location 300, -800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "A9") (Name Visible "PT51A") (PinSwap 0) (PartSwap 0) (PinSeq 9) (Part 1)
+Pin (Location 300, -900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B1") (Name Visible "PL11A") (PinSwap 0) (PartSwap 0) (PinSeq 10) (Part 1)
+Pin (Location 300, -1000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B2") (Name Visible "PL11B") (PinSwap 0) (PartSwap 0) (PinSeq 11) (Part 1)
+Pin (Location 300, -1100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B3") (Name Visible "PT4B") (PinSwap 0) (PartSwap 0) (PinSeq 12) (Part 1)
+Pin (Location 300, -1200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B4") (Name Visible "PT11B") (PinSwap 0) (PartSwap 0) (PinSeq 13) (Part 1)
+Pin (Location 300, -1300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B5") (Name Visible "PT15B") (PinSwap 0) (PartSwap 0) (PinSeq 14) (Part 1)
+Pin (Location 300, -1400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B6") (Name Visible "PT31B") (PinSwap 0) (PartSwap 0) (PinSeq 15) (Part 1)
+Pin (Location 300, -1500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B7") (Name Visible "PT36B") (PinSwap 0) (PartSwap 0) (PinSeq 16) (Part 1)
+Pin (Location 300, -1600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B8") (Name Visible "PT44B") (PinSwap 0) (PartSwap 0) (PinSeq 17) (Part 1)
+Pin (Location 300, -1700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "B9") (Name Visible "PT47A") (PinSwap 0) (PartSwap 0) (PinSeq 18) (Part 1)
+Pin (Location 300, -1800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C1") (Name Visible "PL14A") (PinSwap 0) (PartSwap 0) (PinSeq 19) (Part 1)
+Pin (Location 300, -1900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C2") (Name Visible "PL14B") (PinSwap 0) (PartSwap 0) (PinSeq 20) (Part 1)
+Pin (Location 300, -2000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C3") (Name Visible "PL11C") (PinSwap 0) (PartSwap 0) (PinSeq 21) (Part 1)
+Pin (Location 300, -2100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C4") (Name Visible "PT11A") (PinSwap 0) (PartSwap 0) (PinSeq 22) (Part 1)
+Pin (Location 300, -2200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C5") (Name Visible "PT15A") (PinSwap 0) (PartSwap 0) (PinSeq 23) (Part 1)
+Pin (Location 300, -2300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C6") (Name Visible "PT31A") (PinSwap 0) (PartSwap 0) (PinSeq 24) (Part 1)
+Pin (Location 300, -2400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C7") (Name Visible "PT36A") (PinSwap 0) (PartSwap 0) (PinSeq 25) (Part 1)
+Pin (Location 300, -2500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C8") (Name Visible "PT44A") (PinSwap 0) (PartSwap 0) (PinSeq 26) (Part 1)
+Pin (Location 300, -2600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "C9") (Name Visible "PT47B") (PinSwap 0) (PartSwap 0) (PinSeq 27) (Part 1)
+Pin (Location 300, -2700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D1") (Name Visible "PL17A") (PinSwap 0) (PartSwap 0) (PinSeq 28) (Part 1)
+Pin (Location 300, -2800) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "D2") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 29) (Part 1)
+Pin (Location 300, -2900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D3") (Name Visible "PL11D") (PinSwap 0) (PartSwap 0) (PinSeq 30) (Part 1)
+Pin (Location 300, -3000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D4") (Name Visible "PT9B") (PinSwap 0) (PartSwap 0) (PinSeq 31) (Part 1)
+Pin (Location 300, -3100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D5") (Name Visible "PT13B") (PinSwap 0) (PartSwap 0) (PinSeq 32) (Part 1)
+Pin (Location 300, -3200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D6") (Name Visible "PT20B") (PinSwap 0) (PartSwap 0) (PinSeq 33) (Part 1)
+Pin (Location 300, -3300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D7") (Name Visible "PT33B") (PinSwap 0) (PartSwap 0) (PinSeq 34) (Part 1)
+Pin (Location 300, -3400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D8") (Name Visible "PT42B") (PinSwap 0) (PartSwap 0) (PinSeq 35) (Part 1)
+Pin (Location 300, -3500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "D9") (Name Visible "PT49A") (PinSwap 0) (PartSwap 0) (PinSeq 36) (Part 1)
+Pin (Location 300, -3600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E1") (Name Visible "PL20D") (PinSwap 0) (PartSwap 0) (PinSeq 37) (Part 1)
+Pin (Location 300, -3700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E2") (Name Visible "PL17B") (PinSwap 0) (PartSwap 0) (PinSeq 38) (Part 1)
+Pin (Location 300, -3800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E3") (Name Visible "PL14C") (PinSwap 0) (PartSwap 0) (PinSeq 39) (Part 1)
+Pin (Location 300, -3900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E4") (Name Visible "PT9A") (PinSwap 0) (PartSwap 0) (PinSeq 40) (Part 1)
+Pin (Location 300, -4000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E5") (Name Visible "PT13A") (PinSwap 0) (PartSwap 0) (PinSeq 41) (Part 1)
+Pin (Location 300, -4100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E6") (Name Visible "PT20A") (PinSwap 0) (PartSwap 0) (PinSeq 42) (Part 1)
+Pin (Location 300, -4200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E7") (Name Visible "PT33A") (PinSwap 0) (PartSwap 0) (PinSeq 43) (Part 1)
+Pin (Location 1500, -4200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "E8") (Name Visible "PT42A") (PinSwap 0) (PartSwap 0) (PinSeq 44) (Part 1)
+Pin (Location 1500, -4100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "E9") (Name Visible "PT49B") (PinSwap 0) (PartSwap 0) (PinSeq 45) (Part 1)
+Pin (Location 1500, -4000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "F1") (Name Visible "PL23A") (PinSwap 0) (PartSwap 0) (PinSeq 46) (Part 1)
+Pin (Location 1500, -3900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "F2") (Name Visible "PL20C") (PinSwap 0) (PartSwap 0) (PinSeq 47) (Part 1)
+Pin (Location 1500, -3800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "F3") (Name Visible "PL14D") (PinSwap 0) (PartSwap 0) (PinSeq 48) (Part 1)
+Pin (Location 1500, -3700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "F4") (Name Visible "PL17C") (PinSwap 0) (PartSwap 0) (PinSeq 49) (Part 1)
+Pin (Location 1500, -3600) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "F5") (Name Visible "PL17D") (PinSwap 0) (PartSwap 0) (PinSeq 50) (Part 1)
+Pin (Location 1500, -3500) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "F6") (Name Visible "VCCIO0") (PinSwap 0) (PartSwap 0) (PinSeq 51) (Part 1)
+Pin (Location 1500, -3400) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "F7") (Name Visible "VCCIO0") (PinSwap 0) (PartSwap 0) (PinSeq 52) (Part 1)
+Pin (Location 1500, -3300) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "F8") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 53) (Part 1)
+Pin (Location 1500, -3200) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "F9") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 54) (Part 1)
+Pin (Location 1500, -3100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "G1") (Name Visible "PL29A") (PinSwap 0) (PartSwap 0) (PinSeq 55) (Part 1)
+Pin (Location 1500, -3000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "G2") (Name Visible "PL23B") (PinSwap 0) (PartSwap 0) (PinSeq 56) (Part 1)
+Pin (Location 1500, -2900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "G3") (Name Visible "PL23C") (PinSwap 0) (PartSwap 0) (PinSeq 57) (Part 1)
+Pin (Location 1500, -2800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "G4") (Name Visible "PL20B") (PinSwap 0) (PartSwap 0) (PinSeq 58) (Part 1)
+Pin (Location 1500, -2700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "G5") (Name Visible "PL20A") (PinSwap 0) (PartSwap 0) (PinSeq 59) (Part 1)
+Pin (Location 1500, -2600) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "G6") (Name Visible "VCC") (PinSwap 0) (PartSwap 0) (PinSeq 60) (Part 1)
+Pin (Location 1500, -2500) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "G7") (Name Visible "VCC") (PinSwap 0) (PartSwap 0) (PinSeq 61) (Part 1)
+Pin (Location 1500, -2400) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "G8") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 62) (Part 1)
+Pin (Location 1500, -2300) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "G9") (Name Visible "VCC") (PinSwap 0) (PartSwap 0) (PinSeq 63) (Part 1)
+Pin (Location 1500, -2200) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "H1") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 64) (Part 1)
+Pin (Location 1500, -2100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "H2") (Name Visible "PL29B") (PinSwap 0) (PartSwap 0) (PinSeq 65) (Part 1)
+Pin (Location 1500, -2000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "H3") (Name Visible "PL23D") (PinSwap 0) (PartSwap 0) (PinSeq 66) (Part 1)
+Pin (Location 1500, -1900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "H4") (Name Visible "PL26B") (PinSwap 0) (PartSwap 0) (PinSeq 67) (Part 1)
+Pin (Location 1500, -1800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "H5") (Name Visible "PL26A") (PinSwap 0) (PartSwap 0) (PinSeq 68) (Part 1)
+Pin (Location 1500, -1700) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "H6") (Name Visible "VCCIO7") (PinSwap 0) (PartSwap 0) (PinSeq 69) (Part 1)
+Pin (Location 1500, -1600) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "H7") (Name Visible "VCCIO7") (PinSwap 0) (PartSwap 0) (PinSeq 70) (Part 1)
+Pin (Location 1500, -1500) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "H8") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 71) (Part 1)
+Pin (Location 1500, -1400) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "H9") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 72) (Part 1)
+Pin (Location 1500, -1300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "J1") (Name Visible "PL32A") (PinSwap 0) (PartSwap 0) (PinSeq 73) (Part 1)
+Pin (Location 1500, -1200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "J2") (Name Visible "PL32B") (PinSwap 0) (PartSwap 0) (PinSeq 74) (Part 1)
+Pin (Location 1500, -1100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "J3") (Name Visible "PL29C") (PinSwap 0) (PartSwap 0) (PinSeq 75) (Part 1)
+Pin (Location 1500, -1000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "J4") (Name Visible "PL26C") (PinSwap 0) (PartSwap 0) (PinSeq 76) (Part 1)
+Pin (Location 1500, -900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "J5") (Name Visible "PL26D") (PinSwap 0) (PartSwap 0) (PinSeq 77) (Part 1)
+Pin (Location 1500, -800) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "J6") (Name Visible "VCCIO6") (PinSwap 0) (PartSwap 0) (PinSeq 78) (Part 1)
+Pin (Location 1500, -700) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "J7") (Name Visible "VCCIO6") (PinSwap 0) (PartSwap 0) (PinSeq 79) (Part 1)
+Pin (Location 1500, -600) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "J8") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 80) (Part 1)
+Pin (Location 1500, -500) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "J9") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 81) (Part 1)
+Pin (Location 1500, -400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "K1") (Name Visible "PL32C") (PinSwap 0) (PartSwap 0) (PinSeq 82) (Part 1)
+Pin (Location 1500, -300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "K2") (Name Visible "PL32D") (PinSwap 0) (PartSwap 0) (PinSeq 83) (Part 1)
+Pin (Location 1500, -200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "K3") (Name Visible "PL29D") (PinSwap 0) (PartSwap 0) (PinSeq 84) (Part 1)
+Pin (Location 1500, -100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "K4") (Name Visible "PL38A") (PinSwap 0) (PartSwap 0) (PinSeq 85) (Part 1)
+Pin (Location 1500, 0) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "K5") (Name Visible "PL38B") (PinSwap 0) (PartSwap 0) (PinSeq 86) (Part 1)
+Rectangle (Width 5) (Start 300, -4400) (End 1500, 200) (Part 1)
+Text (Location 900, 100) (Height 82) (Rotation 0) (Justification Center) (Value "1 of 3") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Lattice") (Part 1)
+Parameter (Name "RefDes") (Location 900, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 900, 300) (Height 82) (Rotation 0) (Justification Center) (Value "Type") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Pin (Location 300, 0) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "K6") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 2)
+Pin (Location 300, -100) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "K7") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 2)
+Pin (Location 300, -200) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "K8") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 2)
+Pin (Location 300, -300) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "K9") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 2)
+Pin (Location 300, -400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "L1") (Name Visible "PL35A") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 2)
+Pin (Location 300, -500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "L2") (Name Visible "PL35B") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 2)
+Pin (Location 300, -600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "L3") (Name Visible "PL41C") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 2)
+Pin (Location 300, -700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "L4") (Name Visible "PL38C") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 2)
+Pin (Location 300, -800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "L5") (Name Visible "PL38D") (PinSwap 0) (PartSwap 0) (PinSeq 9) (Part 2)
+Pin (Location 300, -900) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "L6") (Name Visible "VCCIO8") (PinSwap 0) (PartSwap 0) (PinSeq 10) (Part 2)
+Pin (Location 300, -1000) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "L7") (Name Visible "VCCAUX") (PinSwap 0) (PartSwap 0) (PinSeq 11) (Part 2)
+Pin (Location 300, -1100) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "L8") (Name Visible "VCC") (PinSwap 0) (PartSwap 0) (PinSeq 12) (Part 2)
+Pin (Location 300, -1200) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "L9") (Name Visible "VCC") (PinSwap 0) (PartSwap 0) (PinSeq 13) (Part 2)
+Pin (Location 300, -1300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M1") (Name Visible "PL35C") (PinSwap 0) (PartSwap 0) (PinSeq 14) (Part 2)
+Pin (Location 300, -1400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M2") (Name Visible "PL35D") (PinSwap 0) (PartSwap 0) (PinSeq 15) (Part 2)
+Pin (Location 300, -1500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M3") (Name Visible "PL41D") (PinSwap 0) (PartSwap 0) (PinSeq 16) (Part 2)
+Pin (Location 300, -1600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M4") (Name Visible "PL44C") (PinSwap 0) (PartSwap 0) (PinSeq 17) (Part 2)
+Pin (Location 300, -1700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M5") (Name Visible "PL65C") (PinSwap 0) (PartSwap 0) (PinSeq 18) (Part 2)
+Pin (Location 300, -1800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M6") (Name Visible "PL68A") (PinSwap 0) (PartSwap 0) (PinSeq 19) (Part 2)
+Pin (Location 300, -1900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M7") (Name Visible "PB9B") (PinSwap 0) (PartSwap 0) (PinSeq 20) (Part 2)
+Pin (Location 300, -2000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M8") (Name Visible "PB15B") (PinSwap 0) (PartSwap 0) (PinSeq 21) (Part 2)
+Pin (Location 300, -2100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "M9") (Name Visible "PB18A") (PinSwap 0) (PartSwap 0) (PinSeq 22) (Part 2)
+Pin (Location 300, -2200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N1") (Name Visible "PL41A") (PinSwap 0) (PartSwap 0) (PinSeq 23) (Part 2)
+Pin (Location 300, -2300) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "N2") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 24) (Part 2)
+Pin (Location 300, -2400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N3") (Name Visible "PL44D") (PinSwap 0) (PartSwap 0) (PinSeq 25) (Part 2)
+Pin (Location 300, -2500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N4") (Name Visible "PL59A") (PinSwap 0) (PartSwap 0) (PinSeq 26) (Part 2)
+Pin (Location 300, -2600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N5") (Name Visible "PL65D") (PinSwap 0) (PartSwap 0) (PinSeq 27) (Part 2)
+Pin (Location 300, -2700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N6") (Name Visible "PL68B") (PinSwap 0) (PartSwap 0) (PinSeq 28) (Part 2)
+Pin (Location 300, -2800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N7") (Name Visible "PB9A") (PinSwap 0) (PartSwap 0) (PinSeq 29) (Part 2)
+Pin (Location 300, -2900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N8") (Name Visible "PB15A") (PinSwap 0) (PartSwap 0) (PinSeq 30) (Part 2)
+Pin (Location 300, -3000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "N9") (Name Visible "CCLK") (PinSwap 0) (PartSwap 0) (PinSeq 31) (Part 2)
+Pin (Location 300, -3100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P1") (Name Visible "PL44A") (PinSwap 0) (PartSwap 0) (PinSeq 32) (Part 2)
+Pin (Location 300, -3200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P2") (Name Visible "PL41B") (PinSwap 0) (PartSwap 0) (PinSeq 33) (Part 2)
+Pin (Location 300, -3300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P3") (Name Visible "PL59B") (PinSwap 0) (PartSwap 0) (PinSeq 34) (Part 2)
+Pin (Location 300, -3400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P4") (Name Visible "PL62A") (PinSwap 0) (PartSwap 0) (PinSeq 35) (Part 2)
+Pin (Location 300, -3500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P5") (Name Visible "PL68D") (PinSwap 0) (PartSwap 0) (PinSeq 36) (Part 2)
+Pin (Location 300, -3600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P6") (Name Visible "PL68C") (PinSwap 0) (PartSwap 0) (PinSeq 37) (Part 2)
+Pin (Location 300, -3700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P7") (Name Visible "PB6B") (PinSwap 0) (PartSwap 0) (PinSeq 38) (Part 2)
+Pin (Location 300, -3800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P8") (Name Visible "PB13B") (PinSwap 0) (PartSwap 0) (PinSeq 39) (Part 2)
+Pin (Location 300, -3900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "P9") (Name Visible "DONE") (PinSwap 0) (PartSwap 0) (PinSeq 40) (Part 2)
+Pin (Location 300, -4000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "R1") (Name Visible "PL44B") (PinSwap 0) (PartSwap 0) (PinSeq 41) (Part 2)
+Pin (Location 300, -4100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "R2") (Name Visible "PL59C") (PinSwap 0) (PartSwap 0) (PinSeq 42) (Part 2)
+Pin (Location 300, -4200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "R3") (Name Visible "PL62B") (PinSwap 0) (PartSwap 0) (PinSeq 43) (Part 2)
+Pin (Location 1700, -4200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R4") (Name Visible "PL62C") (PinSwap 0) (PartSwap 0) (PinSeq 44) (Part 2)
+Pin (Location 1700, -4100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R5") (Name Visible "PL65A") (PinSwap 0) (PartSwap 0) (PinSeq 45) (Part 2)
+Pin (Location 1700, -4000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R6") (Name Visible "PB4B") (PinSwap 0) (PartSwap 0) (PinSeq 46) (Part 2)
+Pin (Location 1700, -3900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R7") (Name Visible "PB6A") (PinSwap 0) (PartSwap 0) (PinSeq 47) (Part 2)
+Pin (Location 1700, -3800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R8") (Name Visible "PB13A") (PinSwap 0) (PartSwap 0) (PinSeq 48) (Part 2)
+Pin (Location 1700, -3700) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "R9") (Name Visible "PROGRAMN") (PinSwap 0) (PartSwap 0) (PinSeq 49) (Part 2)
+Pin (Location 1700, -3600) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "T1") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 50) (Part 2)
+Pin (Location 1700, -3500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T2") (Name Visible "PL59D") (PinSwap 0) (PartSwap 0) (PinSeq 51) (Part 2)
+Pin (Location 1700, -3400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T3") (Name Visible "PL62D") (PinSwap 0) (PartSwap 0) (PinSeq 52) (Part 2)
+Pin (Location 1700, -3300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T4") (Name Visible "PL65B") (PinSwap 0) (PartSwap 0) (PinSeq 53) (Part 2)
+Pin (Location 1700, -3200) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "T5") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 54) (Part 2)
+Pin (Location 1700, -3100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T6") (Name Visible "PB4A") (PinSwap 0) (PartSwap 0) (PinSeq 55) (Part 2)
+Pin (Location 1700, -3000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T7") (Name Visible "PB11A") (PinSwap 0) (PartSwap 0) (PinSeq 56) (Part 2)
+Pin (Location 1700, -2900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T8") (Name Visible "PB11B") (PinSwap 0) (PartSwap 0) (PinSeq 57) (Part 2)
+Pin (Location 1700, -2800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T9") (Name Visible "INITN") (PinSwap 0) (PartSwap 0) (PinSeq 58) (Part 2)
+Pin (Location 1700, -2700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "A10") (Name Visible "PT51B") (PinSwap 0) (PartSwap 0) (PinSeq 59) (Part 2)
+Pin (Location 1700, -2600) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "A11") (Name Visible "PT71A") (PinSwap 0) (PartSwap 0) (PinSeq 60) (Part 2)
+Pin (Location 1700, -2500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "A12") (Name Visible "PT71B") (PinSwap 0) (PartSwap 0) (PinSeq 61) (Part 2)
+Pin (Location 1700, -2400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "A13") (Name Visible "PT83A") (PinSwap 0) (PartSwap 0) (PinSeq 62) (Part 2)
+Pin (Location 1700, -2300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "A14") (Name Visible "PT83B") (PinSwap 0) (PartSwap 0) (PinSeq 63) (Part 2)
+Pin (Location 1700, -2200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "A15") (Name Visible "PT85B") (PinSwap 0) (PartSwap 0) (PinSeq 64) (Part 2)
+Pin (Location 1700, -2100) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "A16") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 65) (Part 2)
+Pin (Location 1700, -2000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B10") (Name Visible "PT53A") (PinSwap 0) (PartSwap 0) (PinSeq 66) (Part 2)
+Pin (Location 1700, -1900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B11") (Name Visible "PT58A") (PinSwap 0) (PartSwap 0) (PinSeq 67) (Part 2)
+Pin (Location 1700, -1800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B12") (Name Visible "PT74A") (PinSwap 0) (PartSwap 0) (PinSeq 68) (Part 2)
+Pin (Location 1700, -1700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B13") (Name Visible "PT78A") (PinSwap 0) (PartSwap 0) (PinSeq 69) (Part 2)
+Pin (Location 1700, -1600) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B14") (Name Visible "PT85A") (PinSwap 0) (PartSwap 0) (PinSeq 70) (Part 2)
+Pin (Location 1700, -1500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B15") (Name Visible "PR11B") (PinSwap 0) (PartSwap 0) (PinSeq 71) (Part 2)
+Pin (Location 1700, -1400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "B16") (Name Visible "PR11A") (PinSwap 0) (PartSwap 0) (PinSeq 72) (Part 2)
+Pin (Location 1700, -1300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C10") (Name Visible "PT53B") (PinSwap 0) (PartSwap 0) (PinSeq 73) (Part 2)
+Pin (Location 1700, -1200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C11") (Name Visible "PT58B") (PinSwap 0) (PartSwap 0) (PinSeq 74) (Part 2)
+Pin (Location 1700, -1100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C12") (Name Visible "PT74B") (PinSwap 0) (PartSwap 0) (PinSeq 75) (Part 2)
+Pin (Location 1700, -1000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C13") (Name Visible "PT78B") (PinSwap 0) (PartSwap 0) (PinSeq 76) (Part 2)
+Pin (Location 1700, -900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C14") (Name Visible "PR11C") (PinSwap 0) (PartSwap 0) (PinSeq 77) (Part 2)
+Pin (Location 1700, -800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C15") (Name Visible "PR14B") (PinSwap 0) (PartSwap 0) (PinSeq 78) (Part 2)
+Pin (Location 1700, -700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "C16") (Name Visible "PR14A") (PinSwap 0) (PartSwap 0) (PinSeq 79) (Part 2)
+Pin (Location 1700, -600) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "D10") (Name Visible "PT56A") (PinSwap 0) (PartSwap 0) (PinSeq 80) (Part 2)
+Pin (Location 1700, -500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "D11") (Name Visible "PT69A") (PinSwap 0) (PartSwap 0) (PinSeq 81) (Part 2)
+Pin (Location 1700, -400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "D12") (Name Visible "PT76A") (PinSwap 0) (PartSwap 0) (PinSeq 82) (Part 2)
+Pin (Location 1700, -300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "D13") (Name Visible "PT80A") (PinSwap 0) (PartSwap 0) (PinSeq 83) (Part 2)
+Pin (Location 1700, -200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "D14") (Name Visible "PR11D") (PinSwap 0) (PartSwap 0) (PinSeq 84) (Part 2)
+Pin (Location 1700, -100) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "D15") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 85) (Part 2)
+Pin (Location 1700, 0) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "D16") (Name Visible "PR17A") (PinSwap 0) (PartSwap 0) (PinSeq 86) (Part 2)
+Rectangle (Width 5) (Start 300, -4400) (End 1700, 200) (Part 2)
+Text (Location 1000, 100) (Height 82) (Rotation 0) (Justification Center) (Value "2 of 3") (Part 2)
+Pin (Location 300, 0) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E10") (Name Visible "PT56B") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 3)
+Pin (Location 300, -100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E11") (Name Visible "PT69B") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 3)
+Pin (Location 300, -200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E12") (Name Visible "PT76B") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 3)
+Pin (Location 300, -300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E13") (Name Visible "PT80B") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 3)
+Pin (Location 300, -400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E14") (Name Visible "PR14C") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 3)
+Pin (Location 300, -500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E15") (Name Visible "PR17B") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 3)
+Pin (Location 300, -600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "E16") (Name Visible "PR20D") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 3)
+Pin (Location 300, -700) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "F10") (Name Visible "VCCIO1") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 3)
+Pin (Location 300, -800) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "F11") (Name Visible "VCCIO1") (PinSwap 0) (PartSwap 0) (PinSeq 9) (Part 3)
+Pin (Location 300, -900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "F12") (Name Visible "PR17D") (PinSwap 0) (PartSwap 0) (PinSeq 10) (Part 3)
+Pin (Location 300, -1000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "F13") (Name Visible "PR17C") (PinSwap 0) (PartSwap 0) (PinSeq 11) (Part 3)
+Pin (Location 300, -1100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "F14") (Name Visible "PR14D") (PinSwap 0) (PartSwap 0) (PinSeq 12) (Part 3)
+Pin (Location 300, -1200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "F15") (Name Visible "PR20C") (PinSwap 0) (PartSwap 0) (PinSeq 13) (Part 3)
+Pin (Location 300, -1300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "F16") (Name Visible "PR23A") (PinSwap 0) (PartSwap 0) (PinSeq 14) (Part 3)
+Pin (Location 300, -1400) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "G10") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 15) (Part 3)
+Pin (Location 300, -1500) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "G11") (Name Visible "VCCAUX") (PinSwap 0) (PartSwap 0) (PinSeq 16) (Part 3)
+Pin (Location 300, -1600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "G12") (Name Visible "PR20A") (PinSwap 0) (PartSwap 0) (PinSeq 17) (Part 3)
+Pin (Location 300, -1700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "G13") (Name Visible "PR20B") (PinSwap 0) (PartSwap 0) (PinSeq 18) (Part 3)
+Pin (Location 300, -1800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "G14") (Name Visible "PR23C") (PinSwap 0) (PartSwap 0) (PinSeq 19) (Part 3)
+Pin (Location 300, -1900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "G15") (Name Visible "PR23B") (PinSwap 0) (PartSwap 0) (PinSeq 20) (Part 3)
+Pin (Location 300, -2000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "G16") (Name Visible "PR29A") (PinSwap 0) (PartSwap 0) (PinSeq 21) (Part 3)
+Pin (Location 300, -2100) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "H10") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 22) (Part 3)
+Pin (Location 300, -2200) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "H11") (Name Visible "VCCIO2") (PinSwap 0) (PartSwap 0) (PinSeq 23) (Part 3)
+Pin (Location 300, -2300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "H12") (Name Visible "PR26A") (PinSwap 0) (PartSwap 0) (PinSeq 24) (Part 3)
+Pin (Location 300, -2400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "H13") (Name Visible "PR26B") (PinSwap 0) (PartSwap 0) (PinSeq 25) (Part 3)
+Pin (Location 300, -2500) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "H14") (Name Visible "PR23D") (PinSwap 0) (PartSwap 0) (PinSeq 26) (Part 3)
+Pin (Location 300, -2600) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "H15") (Name Visible "PR29B") (PinSwap 0) (PartSwap 0) (PinSeq 27) (Part 3)
+Pin (Location 300, -2700) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "H16") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 28) (Part 3)
+Pin (Location 300, -2800) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "J10") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 29) (Part 3)
+Pin (Location 300, -2900) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "J11") (Name Visible "VCCIO2") (PinSwap 0) (PartSwap 0) (PinSeq 30) (Part 3)
+Pin (Location 300, -3000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "J12") (Name Visible "PR26D") (PinSwap 0) (PartSwap 0) (PinSeq 31) (Part 3)
+Pin (Location 300, -3100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "J13") (Name Visible "PR26C") (PinSwap 0) (PartSwap 0) (PinSeq 32) (Part 3)
+Pin (Location 300, -3200) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "J14") (Name Visible "PR29C") (PinSwap 0) (PartSwap 0) (PinSeq 33) (Part 3)
+Pin (Location 300, -3300) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "J15") (Name Visible "PR32B") (PinSwap 0) (PartSwap 0) (PinSeq 34) (Part 3)
+Pin (Location 300, -3400) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "J16") (Name Visible "PR32A") (PinSwap 0) (PartSwap 0) (PinSeq 35) (Part 3)
+Pin (Location 300, -3500) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "K10") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 36) (Part 3)
+Pin (Location 300, -3600) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "K11") (Name Visible "VCCIO3") (PinSwap 0) (PartSwap 0) (PinSeq 37) (Part 3)
+Pin (Location 300, -3700) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "K12") (Name Visible "PR38B") (PinSwap 0) (PartSwap 0) (PinSeq 38) (Part 3)
+Pin (Location 300, -3800) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "K13") (Name Visible "PR38A") (PinSwap 0) (PartSwap 0) (PinSeq 39) (Part 3)
+Pin (Location 300, -3900) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "K14") (Name Visible "PR29D") (PinSwap 0) (PartSwap 0) (PinSeq 40) (Part 3)
+Pin (Location 300, -4000) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "K15") (Name Visible "PR32D") (PinSwap 0) (PartSwap 0) (PinSeq 41) (Part 3)
+Pin (Location 300, -4100) (Rotation 180) (PinType IO) (Length 300) (Width 0) (Designator Visible "K16") (Name Visible "PR32C") (PinSwap 0) (PartSwap 0) (PinSeq 42) (Part 3)
+Pin (Location 300, -4200) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "L10") (Name Visible "VCC") (PinSwap 0) (PartSwap 0) (PinSeq 43) (Part 3)
+Pin (Location 1700, -4200) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "L11") (Name Visible "VCCIO3") (PinSwap 0) (PartSwap 0) (PinSeq 44) (Part 3)
+Pin (Location 1700, -4100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "L12") (Name Visible "PR38D") (PinSwap 0) (PartSwap 0) (PinSeq 45) (Part 3)
+Pin (Location 1700, -4000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "L13") (Name Visible "PR38C") (PinSwap 0) (PartSwap 0) (PinSeq 46) (Part 3)
+Pin (Location 1700, -3900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "L14") (Name Visible "PR41C") (PinSwap 0) (PartSwap 0) (PinSeq 47) (Part 3)
+Pin (Location 1700, -3800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "L15") (Name Visible "PR35B") (PinSwap 0) (PartSwap 0) (PinSeq 48) (Part 3)
+Pin (Location 1700, -3700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "L16") (Name Visible "PR35A") (PinSwap 0) (PartSwap 0) (PinSeq 49) (Part 3)
+Pin (Location 1700, -3600) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "M10") (Name Visible "TDO") (PinSwap 0) (PartSwap 0) (PinSeq 50) (Part 3)
+Pin (Location 1700, -3500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "M11") (Name Visible "PR68A") (PinSwap 0) (PartSwap 0) (PinSeq 51) (Part 3)
+Pin (Location 1700, -3400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "M12") (Name Visible "PR65C") (PinSwap 0) (PartSwap 0) (PinSeq 52) (Part 3)
+Pin (Location 1700, -3300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "M13") (Name Visible "PR44C") (PinSwap 0) (PartSwap 0) (PinSeq 53) (Part 3)
+Pin (Location 1700, -3200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "M14") (Name Visible "PR41D") (PinSwap 0) (PartSwap 0) (PinSeq 54) (Part 3)
+Pin (Location 1700, -3100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "M15") (Name Visible "PR35D") (PinSwap 0) (PartSwap 0) (PinSeq 55) (Part 3)
+Pin (Location 1700, -3000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "M16") (Name Visible "PR35C") (PinSwap 0) (PartSwap 0) (PinSeq 56) (Part 3)
+Pin (Location 1700, -2900) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "N10") (Name Visible "CFG_0") (PinSwap 0) (PartSwap 0) (PinSeq 57) (Part 3)
+Pin (Location 1700, -2800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "N11") (Name Visible "PR68B") (PinSwap 0) (PartSwap 0) (PinSeq 58) (Part 3)
+Pin (Location 1700, -2700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "N12") (Name Visible "PR65D") (PinSwap 0) (PartSwap 0) (PinSeq 59) (Part 3)
+Pin (Location 1700, -2600) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "N13") (Name Visible "PR59A") (PinSwap 0) (PartSwap 0) (PinSeq 60) (Part 3)
+Pin (Location 1700, -2500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "N14") (Name Visible "PR44D") (PinSwap 0) (PartSwap 0) (PinSeq 61) (Part 3)
+Pin (Location 1700, -2400) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "N15") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 62) (Part 3)
+Pin (Location 1700, -2300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "N16") (Name Visible "PR41A") (PinSwap 0) (PartSwap 0) (PinSeq 63) (Part 3)
+Pin (Location 1700, -2200) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "P10") (Name Visible "CFG_1") (PinSwap 0) (PartSwap 0) (PinSeq 64) (Part 3)
+Pin (Location 1700, -2100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "P11") (Name Visible "PR68C") (PinSwap 0) (PartSwap 0) (PinSeq 65) (Part 3)
+Pin (Location 1700, -2000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "P12") (Name Visible "PR68D") (PinSwap 0) (PartSwap 0) (PinSeq 66) (Part 3)
+Pin (Location 1700, -1900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "P13") (Name Visible "PR62A") (PinSwap 0) (PartSwap 0) (PinSeq 67) (Part 3)
+Pin (Location 1700, -1800) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "P14") (Name Visible "PR59B") (PinSwap 0) (PartSwap 0) (PinSeq 68) (Part 3)
+Pin (Location 1700, -1700) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "P15") (Name Visible "PR41B") (PinSwap 0) (PartSwap 0) (PinSeq 69) (Part 3)
+Pin (Location 1700, -1600) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "P16") (Name Visible "PR44A") (PinSwap 0) (PartSwap 0) (PinSeq 70) (Part 3)
+Pin (Location 1700, -1500) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "R10") (Name Visible "CFG_2") (PinSwap 0) (PartSwap 0) (PinSeq 71) (Part 3)
+Pin (Location 1700, -1400) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "R11") (Name Visible "TDI") (PinSwap 0) (PartSwap 0) (PinSeq 72) (Part 3)
+Pin (Location 1700, -1300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R12") (Name Visible "PR65A") (PinSwap 0) (PartSwap 0) (PinSeq 73) (Part 3)
+Pin (Location 1700, -1200) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R13") (Name Visible "PR62C") (PinSwap 0) (PartSwap 0) (PinSeq 74) (Part 3)
+Pin (Location 1700, -1100) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R14") (Name Visible "PR62B") (PinSwap 0) (PartSwap 0) (PinSeq 75) (Part 3)
+Pin (Location 1700, -1000) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R15") (Name Visible "PR59C") (PinSwap 0) (PartSwap 0) (PinSeq 76) (Part 3)
+Pin (Location 1700, -900) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "R16") (Name Visible "PR44B") (PinSwap 0) (PartSwap 0) (PinSeq 77) (Part 3)
+Pin (Location 1700, -800) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "T10") (Name Visible "TCK") (PinSwap 0) (PartSwap 0) (PinSeq 78) (Part 3)
+Pin (Location 1700, -700) (Rotation 0) (PinType Input) (Length 300) (Width 0) (Designator Visible "T11") (Name Visible "TMS") (PinSwap 0) (PartSwap 0) (PinSeq 79) (Part 3)
+Pin (Location 1700, -600) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "T12") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 80) (Part 3)
+Pin (Location 1700, -500) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T13") (Name Visible "PR65B") (PinSwap 0) (PartSwap 0) (PinSeq 81) (Part 3)
+Pin (Location 1700, -400) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T14") (Name Visible "PR62D") (PinSwap 0) (PartSwap 0) (PinSeq 82) (Part 3)
+Pin (Location 1700, -300) (Rotation 0) (PinType IO) (Length 300) (Width 0) (Designator Visible "T15") (Name Visible "PR59D") (PinSwap 0) (PartSwap 0) (PinSeq 83) (Part 3)
+Pin (Location 1700, -200) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "T16") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 84) (Part 3)
+Rectangle (Width 5) (Start 300, -4400) (End 1700, 200) (Part 3)
+Text (Location 1000, 100) (Height 82) (Rotation 0) (Justification Center) (Value "3 of 3") (Part 3)
+Footprint (Name "caBGA256_LAT")
+EndComponent
+EndComponents
