@@ -119,7 +119,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VBIKOEUY
 
 [Document5]
-DocumentPath=..\..\..\GLOBAL_OUT.OutJob
+DocumentPath=..\..\..\SHIWA_OUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ UniqueId=DE9C967C-115C-41D4-9FC3-906FDF985A33
 Description=release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=8
+VariationCount=11
 Variation1=Designator=R20|UniqueId=\PWMNTVWD\OSJUITIP|Kind=1|AlternatePart=
 Variation2=Designator=R19|UniqueId=\PWMNTVWD\FNLLYARV|Kind=0|AlternatePart=
 Variation3=Designator=R6|UniqueId=\GAOAYRXO\ZPMKXKEX|Kind=1|AlternatePart=
@@ -149,10 +149,17 @@ Variation5=Designator=R2|UniqueId=\GAOAYRXO\NAYAJWJI|Kind=1|AlternatePart=
 Variation6=Designator=J3|UniqueId=\PWMNTVWD\FETYRBIQ|Kind=1|AlternatePart=
 Variation7=Designator=J2|UniqueId=\GAOAYRXO\JBOCNFYW|Kind=1|AlternatePart=
 Variation8=Designator=C?|UniqueId=\PWMNTVWD\IMDZXQHY|Kind=1|AlternatePart=
+Variation9=Designator=HL3|UniqueId=\UJFFJCBM|Kind=1|AlternatePart=
+Variation10=Designator=HL6|UniqueId=\YEWCPAWZ|Kind=1|AlternatePart=
+Variation11=Designator=HL4|UniqueId=\GDTVCGYQ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for CAM_DVB-CI_v1.4\Design Rule Check - CAM_DVB-CI.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for CAM_STAND_v1\Design Rule Check - CAM_STAND.html
 DItemRevisionGUID=
 
 [Parameter1]
