@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [CAM_DVB-C_v2.02.PcbDoc]
+   Generated File[CAM_DVB-CI_v2.02_rev.2.02_GBR 2025-05-19 17-12.TXT]
+   Generated File[CAM_DVB-CI_v2.02_rev.2.02_GBR 2025-05-19 17-12.LDP]
+   Generated File[CAM_DVB-CI_v2.02_rev.2.02_GBR 2025-05-19 17-12.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:12:49 On 19.05.2025

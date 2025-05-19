@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 17:13:00 On 19.05.2025
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [release] of PCB Document [CAM_DVB-C_v2.02.PcbDoc]
+   Generated File[CAM_DVB-CI_v2.02_rev.2.02_Pick&Place 2025-05-19 17-13.txt]
+   Generated File[CAM_DVB-CI_v2.02_rev.2.02_Pick&Place 2025-05-19 17-13.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 17:13:02 On 19.05.2025
