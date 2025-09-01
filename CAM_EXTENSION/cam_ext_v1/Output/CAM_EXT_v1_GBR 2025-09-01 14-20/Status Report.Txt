@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [CAM_EXT_v1.PcbDoc]
+   Generated File[CAM_EXT_v1_rev.1_GBR 2025-09-01 14-20.TXT]
+   Generated File[CAM_EXT_v1_rev.1_GBR 2025-09-01 14-20.LDP]
+   Generated File[CAM_EXT_v1_rev.1_GBR 2025-09-01 14-20.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:20:56 On 01.09.2025

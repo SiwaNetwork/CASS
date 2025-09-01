@@ -379,42 +379,50 @@ DocumentPath=Project Outputs for CAM_DVB-CI_v2\BGA Escape Route - CAM_DVB-C_v2.h
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-38.xlsx
+DocumentPath=CAM_DVB-C_v2 01.09.2025 13-15-05.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-55.xlsx
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-38.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 08-02.xlsx
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-55.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 08-58.xlsx
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 08-02.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 09-07.xlsx
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 08-58.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2.1\Design Rule Check - CAM_DVB-C_v2.html
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 09-07.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\Design Rule Check - CAM_DVB-C_v2.html
+DocumentPath=Project Outputs for CAM_DVB-CI_v2.1\Design Rule Check - CAM_DVB-C_v2.html
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for CAM_DVB-CI\Design Rule Check - CAM_DVB-CI.html
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\Design Rule Check - CAM_DVB-C_v2.html
 DItemRevisionGUID=
 
 [GeneratedDocument10]
+DocumentPath=Project Outputs for CAM_DVB-CI\Design Rule Check - CAM_DVB-CI.html
+DItemRevisionGUID=
+
+[GeneratedDocument11]
 DocumentPath=Project Outputs for CAM_DVB-CI\Design Rule Check - CAM_DVB-CI_r1.html
 DItemRevisionGUID=
 
 [Parameter1]
+Name=ESKD
+Value=ТЕНШ.463269.01.10.000
+
+[Parameter2]
 Name=Revision
 Value=rev.2.1
 
@@ -825,6 +833,11 @@ OutputName10=BoasTools Html BOM
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+OutputType11=BoardAssistant
+OutputName11=BoardAssistant text documents
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1849,101 +1862,106 @@ Net134=NetName=FLASH_MISO|NetColor=clYellow
 Net135=NetName=FLASH_MOSI|NetColor=clYellow
 Net136=NetName=FLASH_nHOLD|NetColor=clYellow
 Net137=NetName=FLASH_nWP|NetColor=clYellow
-Net138=NetName=FLASH_SCK|NetColor=clYellow
-Net139=NetName=GND|NetColor=clBlue
-Net140=NetName=INPACK#|NetColor=clRed
-Net141=NetName=IORD#|NetColor=clLime
-Net142=NetName=IORD#_R|NetColor=$00FF0099
-Net143=NetName=IOWR#|NetColor=clLime
-Net144=NetName=IOWR#_R|NetColor=$00FF0099
-Net145=NetName=IREQ#|NetColor=clRed
-Net146=NetName=JTAG.PROGRAMN|NetColor=$003891E6
-Net147=NetName=JTAG.TCK|NetColor=$003891E6
-Net148=NetName=JTAG.TDI|NetColor=$003891E6
-Net149=NetName=JTAG.TDO|NetColor=$003891E6
-Net150=NetName=JTAG.TMS|NetColor=$003891E6
-Net151=NetName=JTCK/SWCLK|NetColor=clLime
-Net152=NetName=JTDI|NetColor=clLime
-Net153=NetName=JTDO/TRACESWO|NetColor=clLime
-Net154=NetName=JTMS/SWDIO|NetColor=clLime
-Net155=NetName=MCLKI|NetColor=clLime
-Net156=NetName=MCLKI_R|NetColor=$00FF0099
-Net157=NetName=MCLKO|NetColor=clRed
-Net158=NetName=MDI0|NetColor=clLime
-Net159=NetName=MDI0_R|NetColor=$00FF0099
-Net160=NetName=MDI1|NetColor=clLime
-Net161=NetName=MDI1_R|NetColor=$00FF0099
-Net162=NetName=MDI2|NetColor=clLime
-Net163=NetName=MDI2_R|NetColor=$00FF0099
-Net164=NetName=MDI3|NetColor=clLime
-Net165=NetName=MDI3_R|NetColor=$00FF0099
-Net166=NetName=MDI4|NetColor=clLime
-Net167=NetName=MDI4_R|NetColor=$00FF0099
-Net168=NetName=MDI5|NetColor=clLime
-Net169=NetName=MDI5_R|NetColor=$00FF0099
-Net170=NetName=MDI6|NetColor=clLime
-Net171=NetName=MDI6_R|NetColor=$00FF0099
-Net172=NetName=MDI7|NetColor=clLime
-Net173=NetName=MDI7_R|NetColor=$00FF0099
-Net174=NetName=MDO0|NetColor=clRed
-Net175=NetName=MDO0_R|NetColor=$00FF0099
-Net176=NetName=MDO1|NetColor=clRed
-Net177=NetName=MDO2|NetColor=clRed
-Net178=NetName=MDO3|NetColor=clRed
-Net179=NetName=MDO4|NetColor=clRed
-Net180=NetName=MDO5|NetColor=clRed
-Net181=NetName=MDO6|NetColor=clRed
-Net182=NetName=MDO7|NetColor=clRed
-Net183=NetName=MISTRT|NetColor=clLime
-Net184=NetName=MISTRT_R|NetColor=$00FF0099
-Net185=NetName=MIVAL|NetColor=clLime
-Net186=NetName=MIVAL_R|NetColor=$00FF0099
-Net187=NetName=MOSTRT|NetColor=clRed
-Net188=NetName=MOSTRT_R|NetColor=$00FF0099
-Net189=NetName=MOVAL|NetColor=clRed
-Net190=NetName=MOVAL_R|NetColor=$00FF0099
-Net191=NetName=NCE|NetColor=clYellow
-Net192=NetName=NCONFIG|NetColor=clYellow
-Net193=NetName=nCS0|NetColor=clLime
-Net194=NetName=NetC?_2|NetColor=$003891E6
-Net195=NetName=NetR11_1|NetColor=clAqua
-Net196=NetName=NRST|NetColor=clLime
-Net197=NetName=OE#|NetColor=clLime
-Net198=NetName=OE#_R|NetColor=$00FF0099
-Net199=NetName=OSC_27MHz|NetColor=clAqua
-Net200=NetName=PD2|NetColor=clLime
-Net201=NetName=PLL_27MHz|NetColor=clAqua
-Net202=NetName=PROGRAMN|NetColor=$003891E6
-Net203=NetName=RCC_OUT1|NetColor=clAqua
-Net204=NetName=REG#|NetColor=clLime
-Net205=NetName=REG#_R|NetColor=$00FF0099
-Net206=NetName=RESET|NetColor=clLime
-Net207=NetName=RESET_R|NetColor=$00FF0099
-Net208=NetName=SPI2.CS|NetColor=$00E8864A
-Net209=NetName=SPI2.FLASH_CS|NetColor=$00E8864A
-Net210=NetName=SPI2.FLASH_MISO|NetColor=$00E8864A
-Net211=NetName=SPI2.FLASH_MOSI|NetColor=$00E8864A
-Net212=NetName=SPI2.FLASH_SCK|NetColor=$00E8864A
-Net213=NetName=SPI2.MISO|NetColor=$00E8864A
-Net214=NetName=SPI2.MOSI|NetColor=$00E8864A
-Net215=NetName=SPI2.SCK|NetColor=$00E8864A
-Net216=NetName=STM_27MHz|NetColor=clAqua
-Net217=NetName=STM_RCC_OUT|NetColor=clAqua
-Net218=NetName=STM_RST|NetColor=clLime
-Net219=NetName=TCK|NetColor=$003891E6
-Net220=NetName=TDI|NetColor=$003891E6
-Net221=NetName=TDO|NetColor=$003891E6
-Net222=NetName=TMS|NetColor=$003891E6
-Net223=NetName=USART2_RX|NetColor=clAqua
-Net224=NetName=USART2_TX|NetColor=clAqua
-Net225=NetName=VCC|NetColor=clRed
-Net226=NetName=VCC_AUX|NetColor=$000099FF
-Net227=NetName=VCC_CARD|NetColor=clFuchsia
-Net228=NetName=VCCA|NetColor=$003891E6
-Net229=NetName=VCCD_PLL|NetColor=$002541CC
-Net230=NetName=VPP1|NetColor=clFuchsia
-Net231=NetName=WE#|NetColor=clLime
-Net232=NetName=WE#_R|NetColor=$00FF0099
+Net138=NetName=FLASH_RSV.CS|NetColor=clFuchsia
+Net139=NetName=FLASH_RSV.MISO|NetColor=clFuchsia
+Net140=NetName=FLASH_RSV.MOSI|NetColor=clFuchsia
+Net141=NetName=FLASH_RSV.SCK|NetColor=clFuchsia
+Net142=NetName=FLASH_SCK|NetColor=clYellow
+Net143=NetName=GND|NetColor=clBlue
+Net144=NetName=INPACK#|NetColor=clRed
+Net145=NetName=IORD#|NetColor=clLime
+Net146=NetName=IORD#_R|NetColor=$00FF0099
+Net147=NetName=IOWR#|NetColor=clLime
+Net148=NetName=IOWR#_R|NetColor=$00FF0099
+Net149=NetName=IREQ#|NetColor=clRed
+Net150=NetName=JTAG.PROGRAMN|NetColor=$003891E6
+Net151=NetName=JTAG.TCK|NetColor=$003891E6
+Net152=NetName=JTAG.TDI|NetColor=$003891E6
+Net153=NetName=JTAG.TDO|NetColor=$003891E6
+Net154=NetName=JTAG.TMS|NetColor=$003891E6
+Net155=NetName=JTCK/SWCLK|NetColor=clLime
+Net156=NetName=JTDI|NetColor=clLime
+Net157=NetName=JTDO/TRACESWO|NetColor=clLime
+Net158=NetName=JTMS/SWDIO|NetColor=clLime
+Net159=NetName=MCLKI|NetColor=clLime
+Net160=NetName=MCLKI_R|NetColor=$00FF0099
+Net161=NetName=MCLKO|NetColor=clRed
+Net162=NetName=MDI0|NetColor=clLime
+Net163=NetName=MDI0_R|NetColor=$00FF0099
+Net164=NetName=MDI1|NetColor=clLime
+Net165=NetName=MDI1_R|NetColor=$00FF0099
+Net166=NetName=MDI2|NetColor=clLime
+Net167=NetName=MDI2_R|NetColor=$00FF0099
+Net168=NetName=MDI3|NetColor=clLime
+Net169=NetName=MDI3_R|NetColor=$00FF0099
+Net170=NetName=MDI4|NetColor=clLime
+Net171=NetName=MDI4_R|NetColor=$00FF0099
+Net172=NetName=MDI5|NetColor=clLime
+Net173=NetName=MDI5_R|NetColor=$00FF0099
+Net174=NetName=MDI6|NetColor=clLime
+Net175=NetName=MDI6_R|NetColor=$00FF0099
+Net176=NetName=MDI7|NetColor=clLime
+Net177=NetName=MDI7_R|NetColor=$00FF0099
+Net178=NetName=MDO0|NetColor=clRed
+Net179=NetName=MDO0_R|NetColor=$00FF0099
+Net180=NetName=MDO1|NetColor=clRed
+Net181=NetName=MDO2|NetColor=clRed
+Net182=NetName=MDO3|NetColor=clRed
+Net183=NetName=MDO4|NetColor=clRed
+Net184=NetName=MDO5|NetColor=clRed
+Net185=NetName=MDO6|NetColor=clRed
+Net186=NetName=MDO7|NetColor=clRed
+Net187=NetName=MISTRT|NetColor=clLime
+Net188=NetName=MISTRT_R|NetColor=$00FF0099
+Net189=NetName=MIVAL|NetColor=clLime
+Net190=NetName=MIVAL_R|NetColor=$00FF0099
+Net191=NetName=MOSTRT|NetColor=clRed
+Net192=NetName=MOSTRT_R|NetColor=$00FF0099
+Net193=NetName=MOVAL|NetColor=clRed
+Net194=NetName=MOVAL_R|NetColor=$00FF0099
+Net195=NetName=NCE|NetColor=clYellow
+Net196=NetName=NCONFIG|NetColor=clYellow
+Net197=NetName=nCS0|NetColor=clLime
+Net198=NetName=NetC?_2|NetColor=$003891E6
+Net199=NetName=NetR11_1|NetColor=clAqua
+Net200=NetName=NRST|NetColor=clLime
+Net201=NetName=OE#|NetColor=clLime
+Net202=NetName=OE#_R|NetColor=$00FF0099
+Net203=NetName=OSC_27MHz|NetColor=clAqua
+Net204=NetName=PD2|NetColor=clLime
+Net205=NetName=PLL_27MHz|NetColor=clAqua
+Net206=NetName=PROGRAMN|NetColor=$003891E6
+Net207=NetName=RCC_OUT1|NetColor=clAqua
+Net208=NetName=REG#|NetColor=clLime
+Net209=NetName=REG#_R|NetColor=$00FF0099
+Net210=NetName=RESET|NetColor=clLime
+Net211=NetName=RESET_R|NetColor=$00FF0099
+Net212=NetName=SPI2.CS|NetColor=$00E8864A
+Net213=NetName=SPI2.FLASH_CS|NetColor=$00E8864A
+Net214=NetName=SPI2.FLASH_MISO|NetColor=$00E8864A
+Net215=NetName=SPI2.FLASH_MOSI|NetColor=$00E8864A
+Net216=NetName=SPI2.FLASH_SCK|NetColor=$00E8864A
+Net217=NetName=SPI2.MISO|NetColor=$00E8864A
+Net218=NetName=SPI2.MOSI|NetColor=$00E8864A
+Net219=NetName=SPI2.SCK|NetColor=$00E8864A
+Net220=NetName=SSPI_SN|NetColor=clYellow
+Net221=NetName=STM_27MHz|NetColor=clAqua
+Net222=NetName=STM_RCC_OUT|NetColor=clAqua
+Net223=NetName=STM_RST|NetColor=clLime
+Net224=NetName=TCK|NetColor=$003891E6
+Net225=NetName=TDI|NetColor=$003891E6
+Net226=NetName=TDO|NetColor=$003891E6
+Net227=NetName=TMS|NetColor=$003891E6
+Net228=NetName=USART2_RX|NetColor=clAqua
+Net229=NetName=USART2_TX|NetColor=clAqua
+Net230=NetName=VCC|NetColor=clRed
+Net231=NetName=VCC_AUX|NetColor=$000099FF
+Net232=NetName=VCC_CARD|NetColor=clFuchsia
+Net233=NetName=VCCA|NetColor=$003891E6
+Net234=NetName=VCCD_PLL|NetColor=$002541CC
+Net235=NetName=VPP1|NetColor=clFuchsia
+Net236=NetName=WE#|NetColor=clLime
+Net237=NetName=WE#_R|NetColor=$00FF0099
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

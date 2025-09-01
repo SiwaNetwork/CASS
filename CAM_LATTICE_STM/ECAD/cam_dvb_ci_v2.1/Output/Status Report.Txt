@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:29:24 On 01.09.2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [release] of Project [CAM_DVB-CI_v2.1.PrjPcb]
+   Generated File[CAM_DVB-CI_v2.1_release_rev.2.1_BOM 2025-09-01 13-29.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:29:50 On 01.09.2025

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 14:21:13 On 01.09.2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [release] of Project [CAM_EXT_v1.PrjPcb]
+   Generated File[CAM_EXT_v1_release_rev.1_BOM 2025-09-01 14-21.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:21:38 On 01.09.2025

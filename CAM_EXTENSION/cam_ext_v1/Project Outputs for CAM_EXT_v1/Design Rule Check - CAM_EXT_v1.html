@@ -1,0 +1,467 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">01.09.2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">14:19:05</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:04</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc" class="file"><acronym title="C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc">C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">25</td></tr>
+</table>
+</td>
+</table><a name="IDYSPJKKQCXQLEPXDXVGXPIBT5IO4YDNYOXKY4ZUIHSLFOS1FGFMDP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRPTJSJNRJVQAJP3BL2GUEIVGIKSYVJ4W4D4JFFFRDWAOLSVYXET">Clearance Constraint (Gap=0.15mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2VHAF5GNSJS2EBQY3CXHFKP4DG5Y1WA55KIEOPBIWKTKIJFHA4">Clearance Constraint (Gap=0.125mm) (All),(All)</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWC4E0SWAQEDIKNQPXUVCBS02TNN35MHV1HTNP3NKEC513R1C22FM">Clearance Constraint (Gap=0.2mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOP4MM1EXVJDXBCGTP3LKESOPREBAP5SN3MAUYXHHKCL30W404UDC">Clearance Constraint (Gap=0.35mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHWM2ZTN4MWNTJLDRYTV1CJMDRFMEMMF3PC42OKK1UDLLMRWARMHG">Clearance Constraint (Gap=0.3mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNCKVEY535LZT5CTYC4QH3J02HR5U2BDXWMX5YHV5U4HAJU1UJJM">Clearance Constraint (Gap=0.1mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDW3BFZRQKMOYVFGRVHN4HMCR51HMIDK55AVQW5LFY2FLOQG3DFOYJ">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDM1TKMIAF1PW1IAIOOU5ESCXBQIAOUTJ1B32F1EGBAW1EC24BRROG">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQMSZOBKIZLP2FPW3AGTECGCZGPA5QZLCAQ1I4MDZUMVVYG1U1RIE">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3NK03IMQE5IIMZF03OPC54MAKNO0VLHKXDPLLDPBHY2LBV50JGCB">Width Constraint (Min=0.125mm) (Max=10mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTAQ3HORC5TWQBLRTVWIFFRL1SHDW1JT5OKEYP3LELBKD0CGNKM2">Width Constraint (Min=0.125mm) (Max=0.125mm) (Preferred=0.125mm) (InNetClass('DATA'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYVFCGYGLLL1POUVASRMP3Q02EMT3M53XECIZDNCJ0XRP4N0D5JSO">Width Constraint (Min=0.125mm) (Max=0.125mm) (Preferred=0.125mm) (WithinRoom('Lattice_BGA'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2YKGFHKCCOHSB3J2OHVZ4SJTIIMBCPNWWNH5NGVBJ04EUS03DRH">Power Plane Connect Rule(Relief Connect )(Expansion=0.15mm) (Conductor Width=0.15mm) (Air Gap=0.15mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCDUW5QNRCGSD4BGSBSA4ZSMMOYQZO2QBP3CZJBWETBKYOWTCUAH">Power Plane Connect Rule(Relief Connect )(Expansion=0.15mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYU3ZFK5N2UEVNDJKCLSDZCL1WBMCC2K3TDF1J0DUF3HVMWHIR3HC">Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDARYLALQ4YZNSKJGSFTJZ5SMOHOW0XRWLWCT11WY3N34IBXUS4OB">Minimum Annular Ring (Minimum=0.1mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBSSSAEK5F1UBDQIVQEZSTF0AZPLBWMDXKOTPKNPNN0NZOJOUGOWD">Minimum Annular Ring (Minimum=0.2mm) (IsPAD)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVHZEF25JAQ43GL5C4ZOBAUERKCD0C4HAPMQQJDMJ34KQQJXSAIP">Acute Angle Constraint (Minimum=35.000) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDR5ZYEZH0WIZ0MAJH2P1OQZAULNA5UZHNESY4XYJSXFCN5XJQ15EG">Hole Size Constraint (Min=0.2mm) (Max=5.9mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5B3ZJBVLUHWKILB2UAEWW5XMDNGRBTPW1NCYHSIJ4A5Z01N1AXHB">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYHPWSRY4PFL0FXJL0HDDT5RMSKQUPHMYEHBKLKBRARJODR541I3F">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZKM251NYTKCUG2HXOAJ51B5NOH2HDYVYLJWNRJD2FPBBRKBDCPGP">Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNRXPKQA3HAL4E1HWXORIVAW1MIZPNDH3THP0QGJUYNNTQUG553XN">Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAELOEAXB1AWZG3OVOWIHZYHLOIWZFMI1GA0L4SIV0CBEHT44ML5D">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKX2KV2GIW0SUG1CMENDC44FKVKXA400KJLPD0KFUE3JDXZTCFC0J">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEXBJI5KHHVTBKFSIHSIMOS505NAYC2V4M3POSNC454QTKGI0QY4O">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKET4LUXUO4WSHWKLBE20ANXPGD0BLNUPRO3C50LF4H2CNQVDDBCF">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">25</td>
+</tr>
+</table><br><a name="ID2VHAF5GNSJS2EBQY3CXHFKP4DG5Y1WA55KIEOPBIWKTKIJFHA4"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.125mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=983.293mil|Location2.X=987.573mil|Location1.Y=976.206mil|Location2.Y=980.487mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=983.293mil|Location2.X=987.573mil|Location1.Y=976.206mil|Location2.Y=980.487mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.125mm) Between Pad JMP2-1(25.53mm,24.1mm) on Top Layer And Region (0 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1072.663mil|Location2.X=1076.944mil|Location1.Y=976.206mil|Location2.Y=980.487mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1072.663mil|Location2.X=1076.944mil|Location1.Y=976.206mil|Location2.Y=980.487mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.125mm) Between Pad JMP2-2(27.8mm,24.1mm) on Top Layer And Region (0 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1002.978mil|Location2.X=1007.259mil|Location1.Y=946.678mil|Location2.Y=950.959mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1002.978mil|Location2.X=1007.259mil|Location1.Y=946.678mil|Location2.Y=950.959mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.125mm) Between Region (0 hole(s)) Top Layer And Track (25.53mm,24.1mm)(25.53mm,25.695mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1092.348mil|Location2.X=1096.629mil|Location1.Y=946.678mil|Location2.Y=950.959mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1092.348mil|Location2.X=1096.629mil|Location1.Y=946.678mil|Location2.Y=950.959mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.125mm) Between Region (0 hole(s)) Top Layer And Track (27.8mm,24.1mm)(28.85mm,24.1mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1112.072mil|Location2.X=1118.243mil|Location1.Y=945.733mil|Location2.Y=951.904mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1112.072mil|Location2.X=1118.243mil|Location1.Y=945.733mil|Location2.Y=951.904mil|Absolute=True">Clearance Constraint: (0.05mm &lt; 0.125mm) Between Region (0 hole(s)) Top Layer And Track (28.85mm,24.1mm)(29.5mm,24.75mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDW3BFZRQKMOYVFGRVHN4HMCR51HMIDK55AVQW5LFY2FLOQG3DFOYJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=968.13mil|Location2.X=1042.106mil|Location1.Y=911.831mil|Location2.Y=985.807mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=968.13mil|Location2.X=1042.106mil|Location1.Y=911.831mil|Location2.Y=985.807mil|Absolute=True">Short-Circuit Constraint: Between Pad JMP2-1(25.53mm,24.1mm) on Top Layer And Region (0 hole(s)) Top Layer Location : [X = 25.53mm][Y = 24.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1057.501mil|Location2.X=1131.476mil|Location1.Y=911.831mil|Location2.Y=985.807mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1057.501mil|Location2.X=1131.476mil|Location1.Y=911.831mil|Location2.Y=985.807mil|Absolute=True">Short-Circuit Constraint: Between Pad JMP2-2(27.8mm,24.1mm) on Top Layer And Region (0 hole(s)) Top Layer Location : [X = 27.8mm][Y = 24.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=984.852mil|Location2.X=1025.385mil|Location1.Y=940.306mil|Location2.Y=980.839mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=984.852mil|Location2.X=1025.385mil|Location1.Y=940.306mil|Location2.Y=980.839mil|Absolute=True">Short-Circuit Constraint: Between Region (0 hole(s)) Top Layer And Track (25.53mm,24.1mm)(25.53mm,25.695mm) on Top Layer Location : [X = 25.53mm][Y = 24.399mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.001mil|Location2.X=1123.88mil|Location1.Y=919.379mil|Location2.Y=978.259mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.001mil|Location2.X=1123.88mil|Location1.Y=919.379mil|Location2.Y=978.259mil|Absolute=True">Short-Circuit Constraint: Between Region (0 hole(s)) Top Layer And Track (27.8mm,24.1mm)(28.85mm,24.1mm) on Top Layer Location : [X = 27.799mm][Y = 24.1mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEXBJI5KHHVTBKFSIHSIMOS505NAYC2V4M3POSNC454QTKGI0QY4O"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=531.652mil|Location2.X=539.214mil|Location1.Y=1846.613mil|Location2.Y=1854.175mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=531.652mil|Location2.X=539.214mil|Location1.Y=1846.613mil|Location2.Y=1854.175mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (13.6mm,24.82mm)(13.6mm,69.18mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=649.763mil|Location2.X=657.324mil|Location1.Y=973.385mil|Location2.Y=980.946mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=649.763mil|Location2.X=657.324mil|Location1.Y=973.385mil|Location2.Y=980.946mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (13.6mm,24.82mm)(19.6mm,24.82mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=649.763mil|Location2.X=657.324mil|Location1.Y=2719.841mil|Location2.Y=2727.403mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=649.763mil|Location2.X=657.324mil|Location1.Y=2719.841mil|Location2.Y=2727.403mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (13.6mm,69.18mm)(19.6mm,69.18mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5204.881mil|Location2.X=5212.442mil|Location1.Y=3028.978mil|Location2.Y=3036.539mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5204.881mil|Location2.X=5212.442mil|Location1.Y=3028.978mil|Location2.Y=3036.539mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (132.3mm,17.16mm)(132.3mm,77.01mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6105.552mil|Location2.X=6113.114mil|Location1.Y=671.81mil|Location2.Y=679.371mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6105.552mil|Location2.X=6113.114mil|Location1.Y=671.81mil|Location2.Y=679.371mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (132.3mm,17.16mm)(168.3mm,17.16mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5913.542mil|Location2.X=5921.104mil|Location1.Y=3028.109mil|Location2.Y=3035.671mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5913.542mil|Location2.X=5921.104mil|Location1.Y=3028.109mil|Location2.Y=3035.671mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (132.3mm,77.01mm)(168.3mm,77.01mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5879.881mil|Location2.X=5887.442mil|Location1.Y=1849.959mil|Location2.Y=1857.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5879.881mil|Location2.X=5887.442mil|Location1.Y=1849.959mil|Location2.Y=1857.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (149.445mm,22.955mm)(149.445mm,71.215mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5954.881mil|Location2.X=5962.442mil|Location1.Y=899.959mil|Location2.Y=907.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5954.881mil|Location2.X=5962.442mil|Location1.Y=899.959mil|Location2.Y=907.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (149.445mm,22.955mm)(153.255mm,22.955mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5954.881mil|Location2.X=5962.442mil|Location1.Y=2799.959mil|Location2.Y=2807.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5954.881mil|Location2.X=5962.442mil|Location1.Y=2799.959mil|Location2.Y=2807.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (149.445mm,71.215mm)(153.255mm,71.215mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6029.881mil|Location2.X=6037.442mil|Location1.Y=824.959mil|Location2.Y=832.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6029.881mil|Location2.X=6037.442mil|Location1.Y=824.959mil|Location2.Y=832.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (153.255mm,19.145mm)(153.255mm,22.955mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6326.042mil|Location2.X=6333.604mil|Location1.Y=749.959mil|Location2.Y=757.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6326.042mil|Location2.X=6333.604mil|Location1.Y=749.959mil|Location2.Y=757.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (153.255mm,19.145mm)(168.3mm,19.145mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6029.881mil|Location2.X=6037.442mil|Location1.Y=2874.959mil|Location2.Y=2882.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6029.881mil|Location2.X=6037.442mil|Location1.Y=2874.959mil|Location2.Y=2882.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (153.255mm,71.215mm)(153.255mm,75.025mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6326.042mil|Location2.X=6333.604mil|Location1.Y=2949.959mil|Location2.Y=2957.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6326.042mil|Location2.X=6333.604mil|Location1.Y=2949.959mil|Location2.Y=2957.521mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (153.255mm,75.025mm)(168.3mm,75.025mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6622.203mil|Location2.X=6629.765mil|Location1.Y=710.885mil|Location2.Y=718.446mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6622.203mil|Location2.X=6629.765mil|Location1.Y=710.885mil|Location2.Y=718.446mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (168.3mm,17.16mm)(168.3mm,19.145mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6622.203mil|Location2.X=6629.765mil|Location1.Y=2989.034mil|Location2.Y=2996.596mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6622.203mil|Location2.X=6629.765mil|Location1.Y=2989.034mil|Location2.Y=2996.596mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (168.3mm,75.025mm)(168.3mm,77.01mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=767.873mil|Location2.X=775.434mil|Location1.Y=1846.613mil|Location2.Y=1854.175mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=767.873mil|Location2.X=775.434mil|Location1.Y=1846.613mil|Location2.Y=1854.175mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.25mm) Between Board Edge And Track (19.6mm,24.82mm)(19.6mm,69.18mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

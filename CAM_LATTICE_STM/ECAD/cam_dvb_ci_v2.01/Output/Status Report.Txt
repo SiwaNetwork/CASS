@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:32:59 On 21.07.2025
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [release] of Project [MiniPTM.PrjPcb]
+   Generated File[CAM_DVB-CI_v2.01_rev.2.01_BOM 2025-07-21 01-32.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 1:33:29 On 21.07.2025
