@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Documents\Altium\SM_Project\CASS\CAM_EXTENSION\cam_ext_v1\CAM_EXT_v1.PcbDoc
-Date     : 01.09.2025
-Time     : 14:19:05
+Date     : 05.09.2025
+Time     : 11:59:11
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (Disabled)(All),(All)
 Rule Violations :0
@@ -88,6 +88,7 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.236mm < 0.25mm) Between Board Edge And Text "68" (121.742mm,73.092mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (13.6mm,24.82mm)(13.6mm,69.18mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (13.6mm,24.82mm)(19.6mm,24.82mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (13.6mm,69.18mm)(19.6mm,69.18mm) on Top Overlay 
@@ -104,12 +105,12 @@ Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (168.3mm,17.16mm)(168.3mm,19.145mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (168.3mm,75.025mm)(168.3mm,77.01mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (19.6mm,24.82mm)(19.6mm,69.18mm) on Top Overlay 
-Rule Violations :16
+Rule Violations :17
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 25
+Violations Detected : 26
 Waived Violations : 0
 Time Elapsed        : 00:00:04

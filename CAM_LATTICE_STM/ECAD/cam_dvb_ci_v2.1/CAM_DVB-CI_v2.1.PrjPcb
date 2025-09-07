@@ -361,7 +361,7 @@ UniqueId=DE9C967C-115C-41D4-9FC3-906FDF985A33
 Description=release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
+VariationCount=11
 Variation1=Designator=J3|UniqueId=\PWMNTVWD\FETYRBIQ|Kind=1|AlternatePart=
 Variation2=Designator=J2|UniqueId=\GAOAYRXO\JBOCNFYW|Kind=1|AlternatePart=
 Variation3=Designator=R26|UniqueId=\PWMNTVWD\IHGPNOFM|Kind=1|AlternatePart=
@@ -372,6 +372,7 @@ Variation7=Designator=R45|UniqueId=\GAOAYRXO\QTBZPPOT|Kind=1|AlternatePart=
 Variation8=Designator=R46|UniqueId=\GAOAYRXO\EZEAWPPY|Kind=1|AlternatePart=
 Variation9=Designator=R48|UniqueId=\GAOAYRXO\TYVOZJJD|Kind=1|AlternatePart=
 Variation10=Designator=R47|UniqueId=\GAOAYRXO\EUIRHYZZ|Kind=1|AlternatePart=
+Variation11=Designator=J4|UniqueId=\GAOAYRXO\QINILOTY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -383,38 +384,110 @@ DocumentPath=CAM_DVB-C_v2 01.09.2025 13-15-05.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-38.xlsx
+DocumentPath=Output\CAM_DVB-CI_v2.1_release_rev.2.1_BOM 2025-09-05 15-08.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-55.xlsx
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\NC Drill\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 08-02.xlsx
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.G1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 08-58.xlsx
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.G2
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 09-07.xlsx
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2.1\Design Rule Check - CAM_DVB-C_v2.html
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for CAM_DVB-CI_v2\Design Rule Check - CAM_DVB-C_v2.html
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for CAM_DVB-CI\Design Rule Check - CAM_DVB-CI.html
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GM
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GM19
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\Gerber\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\NC Drill\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Output\CAM_DVB-CI_v2.1_GBR 2025-09-05 15-08\NC Drill\CAM_DVB-CI_v2.1_rev.2.1_GBR 2025-09-05 15-08.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Output\CAM_DVB-CI_v2.1_release_P&P 2025-09-05 15-08\CAM_DVB-CI_v2.1_rev.2.1_P&P 2025-09-05 15-08.csv
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Output\CAM_DVB-CI_v2.1_release_P&P 2025-09-05 15-08\CAM_DVB-CI_v2.1_rev.2.1_P&P 2025-09-05 15-08.txt
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-38.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 07-55.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-18 08-02.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 08-58.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\CAM_DVB-CI_v2_rev.1.1_release BOM 2024-10-24 09-07.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2.1\Design Rule Check - CAM_DVB-C_v2.html
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for CAM_DVB-CI_v2\Design Rule Check - CAM_DVB-C_v2.html
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for CAM_DVB-CI\Design Rule Check - CAM_DVB-CI.html
+DItemRevisionGUID=
+
+[GeneratedDocument29]
 DocumentPath=Project Outputs for CAM_DVB-CI\Design Rule Check - CAM_DVB-CI_r1.html
 DItemRevisionGUID=
 
